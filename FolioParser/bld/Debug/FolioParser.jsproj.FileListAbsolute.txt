@@ -1,0 +1,17 @@
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bin\Debug\resources.pri
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bin\Debug\AppxManifest.xml
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bin\Debug\FolioParser.build.appxrecipe
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bld\Debug\priconfig.xml.intermediate
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bld\Debug\layout.resfiles.intermediate
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bld\Debug\resources.resfiles.intermediate
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bld\Debug\pri.resfiles.intermediate
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bld\Debug\priconfig.xml
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bld\Debug\layout.resfiles
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bld\Debug\resources.resfiles
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bld\Debug\pri.resfiles
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bld\Debug\LanguageQualifiers.txt
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bld\Debug\ProjectArchitectures.txt
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bin\Debug\FolioParserComponent.winmd
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bin\Debug\FolioParserComponent.pdb
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bin\Debug\FolioParserComponent.pri
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParser\bld\Debug\FolioParser.jsprojResolveAssemblyReference.cache

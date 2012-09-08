@@ -1,0 +1,16 @@
+﻿<folio version="1.7.0" lastUpdated="2012-07-31T23:10:37Z" date="2012-07-31T08:00:00Z" orientation="always" bindingDirection="left" id="Vanity Fair_August 2012">
+  <metadata>
+    <description>August 2012</description>
+    <magazineTitle>Vanity Fair</magazineTitle>
+    <folioNumber>August 2012</folioNumber>
+  </metadata>
+  <targetDimensions>
+    <targetDimension wideDimension="1024" narrowDimension="768"/>
+  </targetDimensions>
+  <contentStacks>
+    <contentStack id="0100_VF0812_COVER" subfolio="0100_VF0812_COVER.folio"/>
+    <contentStack id="7100_VF0812_BALDWIN" subfolio="7100_VF0812_BALDWIN.folio"/>
+    <contentStack id="7400_VF0812_BALLMER" subfolio="7400_VF0812_BALLMER.folio"/>
+    <contentStack id="7500_VF0812_LOULOU" subfolio="7500_VF0812_LOULOU.folio"/>
+  </contentStacks>
+</folio>

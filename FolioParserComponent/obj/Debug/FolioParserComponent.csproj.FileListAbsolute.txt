@@ -1,0 +1,16 @@
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\FolioParserComponent.winmd
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\FolioParserComponent.winmdobj
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\FolioParserComponent.compile.pdb
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\bin\Debug\FolioParserComponent.winmd
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\bin\Debug\FolioParserComponent.pdb
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\bin\Debug\FolioParserComponent.pri
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\FolioParserComponent.pdb
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\priconfig.xml
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\layout.resfiles
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\resources.resfiles
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\pri.resfiles
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\LanguageQualifiers.txt
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\priconfig.xml.intermediate
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\layout.resfiles.intermediate
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\resources.resfiles.intermediate
+c:\users\kurtis\documents\visual studio 2012\Projects\FolioParser\FolioParserComponent\obj\Debug\pri.resfiles.intermediate

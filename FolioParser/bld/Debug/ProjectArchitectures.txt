@@ -1,0 +1,2 @@
+C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\FolioParser.jsproj;neutral
+C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParserComponent\FolioParserComponent.csproj;neutral

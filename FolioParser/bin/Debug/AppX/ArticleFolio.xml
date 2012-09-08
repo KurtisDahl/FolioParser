@@ -1,0 +1,981 @@
+﻿<folio version="1.7.0" lastUpdated="2012-07-31T23:09:19Z" id="7100_VF0812_BALDWIN" orientation="always">
+  <metadata>
+    <description>Canned Description</description>
+    <magazineTitle>Canned Magazine Title</magazineTitle>
+    <folioNumber>12345</folioNumber>
+  </metadata>
+  <targetDimensions>
+    <targetDimension wideDimension="1024" narrowDimension="768"></targetDimension>
+  </targetDimensions>
+  <contentStacks>
+    <contentStack lastUpdated="2012-07-31T23:09:19Z" id="7100_VF0812_BALDWIN" smoothScrolling="never" layout="vertical" subfolio="7100_VF0812_BALDWIN.folio" alwaysDisplayOverlays="false" orientation="always">
+      <content>
+        <previews>
+          <toc>StackResources/baldwin140x140.png</toc>
+        </previews>
+        <regions>
+          <region>
+            <portraitBounds>
+              <rectangle x="0" y="0" width="768" height="17408"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="0" y="0" width="1024" height="13056"/>
+            </landscapeBounds>
+            <metadata lastUpdated="2012-07-31T23:08:58Z">
+              <title>Happy Landing, Mr. Baldwin</title>
+              <description>   </description>
+              <author>By Todd S. Purdum</author>
+              <kicker>Feature</kicker>
+              <isAdvertisement>false</isAdvertisement>
+              <hasAudio>true</hasAudio>
+              <hasVideo>true</hasVideo>
+              <hasSlideshow>true</hasSlideshow>
+            </metadata>
+          </region>
+        </regions>
+        <assets>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P1.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P1.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+            <assetRendition type="raster" source="StackResources/scrubber_P1.png" includesOverlays="true" width="125" height="166" role="scrubber"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P2.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P2.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P3.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P3.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P4.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P4.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P5.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P5.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P6.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P6.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P7.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P7.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P8.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P8.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P9.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P9.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P10.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P10.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P11.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P11.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P12.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P12.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P13.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P13.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P14.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P14.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P15.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P15.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P16.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P16.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P17.png" includesOverlays="false" width="768" height="1024" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P17.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L1.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L1.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+            <assetRendition type="raster" source="StackResources/scrubber_L1.png" includesOverlays="true" width="221" height="166" role="scrubber"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L2.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L2.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L3.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L3.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L4.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L4.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L5.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L5.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L6.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L6.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L7.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L7.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L8.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L8.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L9.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L9.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L10.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L10.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L11.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L11.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L12.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L12.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L13.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L13.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L14.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L14.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L15.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L15.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L16.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L16.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L17.png" includesOverlays="false" width="1024" height="768" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L17.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
+        </assets>
+        <overlays>
+          <overlay id="fade-in button V 1" type="slideshow" lastUpdated="2012-07-31T23:09:19Z">
+            <portraitBounds>
+              <rectangle x="20" y="390" width="80" height="139"/>
+            </portraitBounds>
+            <data>
+              <drawHighlight>false</drawHighlight>
+              <selectedHighlight>0</selectedHighlight>
+              <crossFadeImages>true</crossFadeImages>
+              <crossFadeImagesDelay>0.5000</crossFadeImagesDelay>
+              <defaultSelected>true</defaultSelected>
+              <autoStart>true</autoStart>
+              <autoStartDelay>0.5000</autoStartDelay>
+              <autoTransitionDuration>0.5000</autoTransitionDuration>
+              <loopCount>1</loopCount>
+              <reverseImageOrder>true</reverseImageOrder>
+              <tapEnabled>false</tapEnabled>
+              <swipeEnabled>false</swipeEnabled>
+              <swipeStop>false</swipeStop>
+              <overlayAsset id="fade-in button V 1_State 2_4567_P" width="80" height="139" landscape="false">OverlayResources/InDesign_BNDLR_RSRC19411137953790/fade-in button V 1_State 2_4567_P.png</overlayAsset>
+              <overlayAsset id="fade-in button V 1_State 1_7458_P" width="80" height="139" landscape="false">OverlayResources/InDesign_BNDLR_RSRC19411137953790/fade-in button V 1_State 1_7458_P.png</overlayAsset>
+              <portraitLayout>
+                <displayBounds>
+                  <rectangle x="0" y="0" width="80" height="139"/>
+                </displayBounds>
+                <buttons></buttons>
+              </portraitLayout>
+            </data>
+          </overlay>
+          <overlay id="fade-in button H 1" type="slideshow" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="24" y="373" width="80" height="144"/>
+            </landscapeBounds>
+            <data>
+              <drawHighlight>false</drawHighlight>
+              <selectedHighlight>0</selectedHighlight>
+              <crossFadeImages>true</crossFadeImages>
+              <crossFadeImagesDelay>0.5000</crossFadeImagesDelay>
+              <defaultSelected>true</defaultSelected>
+              <autoStart>true</autoStart>
+              <autoStartDelay>0.5000</autoStartDelay>
+              <autoTransitionDuration>0.5000</autoTransitionDuration>
+              <loopCount>1</loopCount>
+              <reverseImageOrder>true</reverseImageOrder>
+              <tapEnabled>false</tapEnabled>
+              <swipeEnabled>false</swipeEnabled>
+              <swipeStop>false</swipeStop>
+              <overlayAsset id="fade-in button H 1_State 2_3492_L" width="80" height="144" landscape="true">OverlayResources/InDesign_BNDLR_RSRC19411137953790/fade-in button H 1_State 2_3492_L.png</overlayAsset>
+              <overlayAsset id="fade-in button H 1_State 1_5995_L" width="80" height="144" landscape="true">OverlayResources/InDesign_BNDLR_RSRC19411137953790/fade-in button H 1_State 1_5995_L.png</overlayAsset>
+              <landscapeLayout>
+                <displayBounds>
+                  <rectangle x="0" y="0" width="80" height="144"/>
+                </displayBounds>
+                <buttons></buttons>
+              </landscapeLayout>
+            </data>
+          </overlay>
+          <overlay id="Baldwin cap V 1" type="slideshow" lastUpdated="2012-07-31T23:09:19Z">
+            <portraitBounds>
+              <rectangle x="24" y="-96" width="880" height="617"/>
+            </portraitBounds>
+            <data>
+              <drawHighlight>false</drawHighlight>
+              <selectedHighlight>0</selectedHighlight>
+              <crossFadeImages>true</crossFadeImages>
+              <crossFadeImagesDelay>0.5000</crossFadeImagesDelay>
+              <defaultSelected>true</defaultSelected>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+              <autoTransitionDuration>2.0000</autoTransitionDuration>
+              <loopCount>-1</loopCount>
+              <reverseImageOrder>false</reverseImageOrder>
+              <tapEnabled>false</tapEnabled>
+              <swipeEnabled>false</swipeEnabled>
+              <swipeStop>false</swipeStop>
+              <overlayAsset id="Baldwin cap V 1_State 1_7455_P" width="873" height="572" landscape="false">OverlayResources/InDesign_BNDLR_RSRC19411137953790/Baldwin cap V 1_State 1_7455_P.png</overlayAsset>
+              <overlayAsset id="Baldwin cap V 1_State 2_7451_P" width="873" height="572" landscape="false">OverlayResources/InDesign_BNDLR_RSRC19411137953790/Baldwin cap V 1_State 2_7451_P.png</overlayAsset>
+              <overlayAsset id="Button 12_Normal_7465_P" width="75" height="88" landscape="false">OverlayResources/InDesign_BNDLR_RSRC19411137953790/Button 12_Normal_7465_P.png</overlayAsset>
+              <portraitLayout>
+                <displayBounds>
+                  <rectangle x="7" y="0" width="873" height="572"/>
+                </displayBounds>
+                <buttons>
+                  <button targetID="nextSlide" defaultID="Button 12_Normal_7465_P" selectedID="" stopEnabled="false">
+                    <bounds>
+                      <rectangle x="0" y="529" width="75" height="88"/>
+                    </bounds>
+                  </button>
+                </buttons>
+              </portraitLayout>
+            </data>
+          </overlay>
+          <overlay id="Baldwin cap H 1" type="slideshow" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="28" y="-104" width="866" height="616"/>
+            </landscapeBounds>
+            <data>
+              <drawHighlight>false</drawHighlight>
+              <selectedHighlight>0</selectedHighlight>
+              <crossFadeImages>true</crossFadeImages>
+              <crossFadeImagesDelay>0.5000</crossFadeImagesDelay>
+              <defaultSelected>true</defaultSelected>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+              <autoTransitionDuration>2.0000</autoTransitionDuration>
+              <loopCount>-1</loopCount>
+              <reverseImageOrder>false</reverseImageOrder>
+              <tapEnabled>false</tapEnabled>
+              <swipeEnabled>false</swipeEnabled>
+              <swipeStop>false</swipeStop>
+              <overlayAsset id="Baldwin cap H 1_State 1_5993_L" width="860" height="567" landscape="true">OverlayResources/InDesign_BNDLR_RSRC19411137953790/Baldwin cap H 1_State 1_5993_L.png</overlayAsset>
+              <overlayAsset id="Baldwin cap H 1_State 2_5989_L" width="860" height="567" landscape="true">OverlayResources/InDesign_BNDLR_RSRC19411137953790/Baldwin cap H 1_State 2_5989_L.png</overlayAsset>
+              <overlayAsset id="Button 15_Normal_5999_L" width="72" height="92" landscape="true">OverlayResources/InDesign_BNDLR_RSRC19411137953790/Button 15_Normal_5999_L.png</overlayAsset>
+              <landscapeLayout>
+                <displayBounds>
+                  <rectangle x="6" y="0" width="860" height="567"/>
+                </displayBounds>
+                <buttons>
+                  <button targetID="nextSlide" defaultID="Button 15_Normal_5999_L" selectedID="" stopEnabled="false">
+                    <bounds>
+                      <rectangle x="0" y="524" width="72" height="92"/>
+                    </bounds>
+                  </button>
+                </buttons>
+              </landscapeLayout>
+            </data>
+          </overlay>
+          <overlay id="Button 8_4924_P" type="hyperlink" lastUpdated="2012-07-31T23:09:03Z">
+            <portraitBounds>
+              <rectangle x="29" y="2942" width="56" height="75"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.facebook.com/share.php?u=http%3A//vnty.fr/Ozt5y2</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="Button 9_3847_L" type="hyperlink" lastUpdated="2012-07-31T23:09:14Z">
+            <landscapeBounds>
+              <rectangle x="44" y="2175" width="56" height="75"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.facebook.com/share.php?u=http%3A//vnty.fr/Ozt5y2</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="Button 9_4928_P" type="hyperlink" lastUpdated="2012-07-31T23:09:03Z">
+            <portraitBounds>
+              <rectangle x="91" y="2942" width="53" height="75"/>
+            </portraitBounds>
+            <data>
+              <url>http://twitter.com/share?text=I+liked+&apos;Happy+Landing%2C+Mr.+Baldwin&apos;+on+the+%40VanityFair+digital+edition+enough+to+tweet+about+it.+-&amp;url=http://vnty.fr/Ozt5y2&amp;counturl=http://vnty.fr/Ozt5y2</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="Button 10_3851_L" type="hyperlink" lastUpdated="2012-07-31T23:09:14Z">
+            <landscapeBounds>
+              <rectangle x="106" y="2175" width="53" height="75"/>
+            </landscapeBounds>
+            <data>
+              <url>http://twitter.com/share?text=I+liked+&apos;Happy+Landing%2C+Mr.+Baldwin&apos;+on+the+%40VanityFair+digital+edition+enough+to+tweet+about+it.+-&amp;url=http://vnty.fr/Ozt5y2&amp;counturl=http://vnty.fr/Ozt5y2</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="Button 10_4932_P" type="hyperlink" lastUpdated="2012-07-31T23:09:03Z">
+            <portraitBounds>
+              <rectangle x="154" y="2942" width="53" height="75"/>
+            </portraitBounds>
+            <data>
+              <url>mailto:Enter recipient&apos;s email address?subject=I thought this Vanity Fair feature might interest you&amp;body=I liked &apos;Happy Landing, Mr. Baldwin&apos; on the Vanity Fair digital edition enough to e-mail you about it. http://vnty.fr/Ozt5y2&lt;br/&gt;&lt;a href=&apos;http://www.vanityfair.com/app&apos;&gt;&lt;img src=&apos;http://subscribe.condenet.com/images_covers/defaultemailfooter_vanityfair_p500.png&apos;/&gt;&lt;/a&gt;</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>false</openInApp>
+            </data>
+          </overlay>
+          <overlay id="Button 11_3855_L" type="hyperlink" lastUpdated="2012-07-31T23:09:14Z">
+            <landscapeBounds>
+              <rectangle x="169" y="2175" width="53" height="75"/>
+            </landscapeBounds>
+            <data>
+              <url>mailto:Enter recipient&apos;s email address?subject=I thought this Vanity Fair feature might interest you&amp;body=I liked &apos;Happy Landing, Mr. Baldwin&apos; on the Vanity Fair digital edition enough to e-mail you about it. http://vnty.fr/Ozt5y2&lt;br/&gt;&lt;a href=&apos;http://www.vanityfair.com/app&apos;&gt;&lt;img src=&apos;http://subscribe.condenet.com/images_covers/defaultemailfooter_vanityfair_p500.png&apos;/&gt;&lt;/a&gt;</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>false</openInApp>
+            </data>
+          </overlay>
+          <overlay id="fade-in button V 2" type="slideshow" lastUpdated="2012-07-31T23:09:19Z">
+            <portraitBounds>
+              <rectangle x="668" y="3121" width="80" height="144"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="506" y="2344" width="80" height="142"/>
+            </landscapeBounds>
+            <data>
+              <drawHighlight>false</drawHighlight>
+              <selectedHighlight>0</selectedHighlight>
+              <crossFadeImages>true</crossFadeImages>
+              <crossFadeImagesDelay>0.5000</crossFadeImagesDelay>
+              <defaultSelected>true</defaultSelected>
+              <autoStart>true</autoStart>
+              <autoStartDelay>0.5000</autoStartDelay>
+              <autoTransitionDuration>0.5000</autoTransitionDuration>
+              <loopCount>1</loopCount>
+              <reverseImageOrder>true</reverseImageOrder>
+              <tapEnabled>false</tapEnabled>
+              <swipeEnabled>false</swipeEnabled>
+              <swipeStop>false</swipeStop>
+              <overlayAsset id="fade-in button V 2_State 2_5028_P" width="80" height="144" landscape="false">OverlayResources/InDesign_BNDLR_RSRC19411137953790/fade-in button V 2_State 2_5028_P.png</overlayAsset>
+              <overlayAsset id="fade-in button V 2_State 1_7474_P" width="80" height="144" landscape="false">OverlayResources/InDesign_BNDLR_RSRC19411137953790/fade-in button V 2_State 1_7474_P.png</overlayAsset>
+              <overlayAsset id="fade-in button V 2_State 2_3934_L" width="80" height="142" landscape="true">OverlayResources/InDesign_BNDLR_RSRC19411137953790/fade-in button V 2_State 2_3934_L.png</overlayAsset>
+              <overlayAsset id="fade-in button V 2_State 1_6012_L" width="80" height="142" landscape="true">OverlayResources/InDesign_BNDLR_RSRC19411137953790/fade-in button V 2_State 1_6012_L.png</overlayAsset>
+              <portraitLayout>
+                <displayBounds>
+                  <rectangle x="0" y="0" width="80" height="144"/>
+                </displayBounds>
+                <buttons></buttons>
+              </portraitLayout>
+              <landscapeLayout>
+                <displayBounds>
+                  <rectangle x="0" y="0" width="80" height="142"/>
+                </displayBounds>
+                <buttons></buttons>
+              </landscapeLayout>
+            </data>
+          </overlay>
+          <overlay id="Baldwin cap V 2" type="slideshow" lastUpdated="2012-07-31T23:09:19Z">
+            <portraitBounds>
+              <rectangle x="-99" y="3120" width="846" height="1084"/>
+            </portraitBounds>
+            <data>
+              <drawHighlight>false</drawHighlight>
+              <selectedHighlight>0</selectedHighlight>
+              <crossFadeImages>true</crossFadeImages>
+              <crossFadeImagesDelay>0.5000</crossFadeImagesDelay>
+              <defaultSelected>true</defaultSelected>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+              <autoTransitionDuration>2.0000</autoTransitionDuration>
+              <loopCount>-1</loopCount>
+              <reverseImageOrder>false</reverseImageOrder>
+              <tapEnabled>false</tapEnabled>
+              <swipeEnabled>false</swipeEnabled>
+              <swipeStop>false</swipeStop>
+              <overlayAsset id="Baldwin cap V 2_State 1_7472_P" width="836" height="1067" landscape="false">OverlayResources/InDesign_BNDLR_RSRC19411137953790/Baldwin cap V 2_State 1_7472_P.png</overlayAsset>
+              <overlayAsset id="Baldwin cap V 2_State 2_7468_P" width="836" height="1067" landscape="false">OverlayResources/InDesign_BNDLR_RSRC19411137953790/Baldwin cap V 2_State 2_7468_P.png</overlayAsset>
+              <overlayAsset id="Button 13_Normal_7477_P" width="77" height="96" landscape="false">OverlayResources/InDesign_BNDLR_RSRC19411137953790/Button 13_Normal_7477_P.png</overlayAsset>
+              <portraitLayout>
+                <displayBounds>
+                  <rectangle x="0" y="17" width="836" height="1067"/>
+                </displayBounds>
+                <buttons>
+                  <button targetID="nextSlide" defaultID="Button 13_Normal_7477_P" selectedID="" stopEnabled="false">
+                    <bounds>
+                      <rectangle x="769" y="0" width="77" height="96"/>
+                    </bounds>
+                  </button>
+                </buttons>
+              </portraitLayout>
+            </data>
+          </overlay>
+          <overlay id="Baldwin cap H 2" type="slideshow" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="-110" y="2337" width="697" height="845"/>
+            </landscapeBounds>
+            <data>
+              <drawHighlight>false</drawHighlight>
+              <selectedHighlight>0</selectedHighlight>
+              <crossFadeImages>true</crossFadeImages>
+              <crossFadeImagesDelay>0.5000</crossFadeImagesDelay>
+              <defaultSelected>true</defaultSelected>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+              <autoTransitionDuration>2.0000</autoTransitionDuration>
+              <loopCount>-1</loopCount>
+              <reverseImageOrder>false</reverseImageOrder>
+              <tapEnabled>false</tapEnabled>
+              <swipeEnabled>false</swipeEnabled>
+              <swipeStop>false</swipeStop>
+              <overlayAsset id="Baldwin cap H 2_State 1_6010_L" width="685" height="822" landscape="true">OverlayResources/InDesign_BNDLR_RSRC19411137953790/Baldwin cap H 2_State 1_6010_L.png</overlayAsset>
+              <overlayAsset id="Baldwin cap H 2_State 2_6006_L" width="685" height="822" landscape="true">OverlayResources/InDesign_BNDLR_RSRC19411137953790/Baldwin cap H 2_State 2_6006_L.png</overlayAsset>
+              <overlayAsset id="Button 16_Normal_6016_L" width="81" height="98" landscape="true">OverlayResources/InDesign_BNDLR_RSRC19411137953790/Button 16_Normal_6016_L.png</overlayAsset>
+              <landscapeLayout>
+                <displayBounds>
+                  <rectangle x="0" y="24" width="685" height="822"/>
+                </displayBounds>
+                <buttons>
+                  <button targetID="nextSlide" defaultID="Button 16_Normal_6016_L" selectedID="" stopEnabled="false">
+                    <bounds>
+                      <rectangle x="615" y="0" width="81" height="98"/>
+                    </bounds>
+                  </button>
+                </buttons>
+              </landscapeLayout>
+            </data>
+          </overlay>
+          <overlay id="baldwin_ambitious_women.mp3_7598_P" type="audio" lastUpdated="2012-07-31T23:09:16Z">
+            <portraitBounds>
+              <rectangle x="41" y="4616" width="138" height="34"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="40" y="3462" width="86" height="52"/>
+            </landscapeBounds>
+            <data>
+              <audioUrl>OverlayResources/Overlay Resources/baldwin_ambitious_women.mp3</audioUrl>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+            </data>
+          </overlay>
+          <overlay id="baldwin_handsome.mp3_7605_P" type="audio" lastUpdated="2012-07-31T23:09:16Z">
+            <portraitBounds>
+              <rectangle x="41" y="4659" width="138" height="34"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="39" y="3525" width="87" height="48"/>
+            </landscapeBounds>
+            <data>
+              <audioUrl>OverlayResources/Overlay Resources/baldwin_handsome.mp3</audioUrl>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+            </data>
+          </overlay>
+          <overlay id="baldwin_business_drinking.mp3_7610_P" type="audio" lastUpdated="2012-07-31T23:09:16Z">
+            <portraitBounds>
+              <rectangle x="41" y="4702" width="138" height="34"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="40" y="3588" width="84" height="47"/>
+            </landscapeBounds>
+            <data>
+              <audioUrl>OverlayResources/Overlay Resources/baldwin_business_drinking.mp3</audioUrl>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+            </data>
+          </overlay>
+          <overlay id="baldwin_coping.mp3_7619_P" type="audio" lastUpdated="2012-07-31T23:09:16Z">
+            <portraitBounds>
+              <rectangle x="41" y="4745" width="138" height="34"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="40" y="3652" width="85" height="44"/>
+            </landscapeBounds>
+            <data>
+              <audioUrl>OverlayResources/Overlay Resources/baldwin_coping.mp3</audioUrl>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+            </data>
+          </overlay>
+          <overlay id="baldwin_eveningwear.mp3_7625_P" type="audio" lastUpdated="2012-07-31T23:09:16Z">
+            <portraitBounds>
+              <rectangle x="41" y="4788" width="138" height="34"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="40" y="3714" width="86" height="49"/>
+            </landscapeBounds>
+            <data>
+              <audioUrl>OverlayResources/Overlay Resources/baldwin_eveningwear.mp3</audioUrl>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+            </data>
+          </overlay>
+          <overlay id="baldwin_factories.mp3_7630_P" type="audio" lastUpdated="2012-07-31T23:09:16Z">
+            <portraitBounds>
+              <rectangle x="41" y="4831" width="138" height="34"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="141" y="3462" width="87" height="51"/>
+            </landscapeBounds>
+            <data>
+              <audioUrl>OverlayResources/Overlay Resources/baldwin_factories.mp3</audioUrl>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+            </data>
+          </overlay>
+          <overlay id="baldwin_family.mp3_7640_P" type="audio" lastUpdated="2012-07-31T23:09:16Z">
+            <portraitBounds>
+              <rectangle x="41" y="4874" width="138" height="34"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="141" y="3525" width="87" height="48"/>
+            </landscapeBounds>
+            <data>
+              <audioUrl>OverlayResources/Overlay Resources/baldwin_family.mp3</audioUrl>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+            </data>
+          </overlay>
+          <overlay id="baldwin_mothers.mp3_7661_P" type="audio" lastUpdated="2012-07-31T23:09:16Z">
+            <portraitBounds>
+              <rectangle x="41" y="4916" width="138" height="34"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="141" y="3588" width="84" height="50"/>
+            </landscapeBounds>
+            <data>
+              <audioUrl>OverlayResources/Overlay Resources/baldwin_mothers.mp3</audioUrl>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+            </data>
+          </overlay>
+          <overlay id="baldwin_relationships.mp3_7668_P" type="audio" lastUpdated="2012-07-31T23:09:16Z">
+            <portraitBounds>
+              <rectangle x="41" y="4962" width="138" height="34"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="141" y="3652" width="86" height="44"/>
+            </landscapeBounds>
+            <data>
+              <audioUrl>OverlayResources/Overlay Resources/baldwin_relationships.mp3</audioUrl>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+            </data>
+          </overlay>
+          <overlay id="baldwin_will_power.mp3_7675_P" type="audio" lastUpdated="2012-07-31T23:09:16Z">
+            <portraitBounds>
+              <rectangle x="41" y="5005" width="138" height="34"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="142" y="3714" width="86" height="48"/>
+            </landscapeBounds>
+            <data>
+              <audioUrl>OverlayResources/Overlay Resources/baldwin_will_power.mp3</audioUrl>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+            </data>
+          </overlay>
+          <overlay id="vf.comcredits. 5_4380_2352_57_940_P" type="hyperlink" lastUpdated="2012-07-31T23:09:07Z">
+            <portraitBounds>
+              <rectangle x="57" y="6060" width="116" height="18"/>
+            </portraitBounds>
+            <data>
+              <url>http://vf.com/credits</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="vf.comcredits. 5_3055_1982_69_684_L" type="hyperlink" lastUpdated="2012-07-31T23:09:17Z">
+            <landscapeBounds>
+              <rectangle x="69" y="4524" width="116" height="18"/>
+            </landscapeBounds>
+            <data>
+              <url>http://vf.com/credits</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="7100_VF0812_BALDWIN.mp4_7564_P" type="video" lastUpdated="2012-07-31T23:09:18Z">
+            <portraitBounds>
+              <rectangle x="45" y="7850" width="167" height="94"/>
+            </portraitBounds>
+            <landscapeBounds>
+              <rectangle x="46" y="5801" width="167" height="94"/>
+            </landscapeBounds>
+            <data>
+              <videoUrl>OverlayResources/Overlay Resources/7100_VF0812_BALDWIN.mp4</videoUrl>
+              <playInContext>false</playInContext>
+              <showControlsByDefault>true</showControlsByDefault>
+              <autoStart>false</autoStart>
+              <autoStartDelay>0.0000</autoStartDelay>
+            </data>
+          </overlay>
+          <overlay id="vf.comcredits 5_7352_4645_449_915_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="449" y="17299" width="79" height="14"/>
+            </portraitBounds>
+            <data>
+              <url>http://vf.com/credits</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="vf.comcredits 5_5525_3895_849_649_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="849" y="12937" width="79" height="14"/>
+            </landscapeBounds>
+            <data>
+              <url>http://vf.com/credits</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="vf.comcredits 6_7354_4645_271_905_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="271" y="17289" width="79" height="14"/>
+            </portraitBounds>
+            <data>
+              <url>http://vf.com/credits</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="vf.comcredits 6_5527_3895_848_629_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="848" y="12917" width="79" height="14"/>
+            </landscapeBounds>
+            <data>
+              <url>http://vf.com/credits</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="vf.comcredits 7_7356_4645_234_935_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="234" y="17319" width="79" height="14"/>
+            </portraitBounds>
+            <data>
+              <url>http://vf.com/credits</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="vf.comcredits 7_5529_3895_630_679_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="630" y="12967" width="79" height="14"/>
+            </landscapeBounds>
+            <data>
+              <url>http://vf.com/credits</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The Edge  producer on  bears, beards,  and Baldwins_7734_4645_87_304_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="87" y="16688" width="24" height="21"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/2002/04/the-edge-alec-baldwin</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The Edge  producer on  bears, beards,  and Baldwins_6298_3895_101_237_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="101" y="12525" width="24" height="21"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/2002/04/the-edge-alec-baldwin</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The Edge  producer on  bears, beards,  and Baldwins_7734_4645_111_304_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="111" y="16688" width="38" height="21"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/2002/04/the-edge-alec-baldwin</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The Edge  producer on  bears, beards,  and Baldwins_6298_3895_125_237_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="125" y="12525" width="38" height="21"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/2002/04/the-edge-alec-baldwin</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The Edge  producer on  bears, beards,  and Baldwins_7734_4645_148_304_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="148" y="16688" width="8" height="21"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/2002/04/the-edge-alec-baldwin</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The Edge  producer on  bears, beards,  and Baldwins_6298_3895_162_237_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="162" y="12525" width="8" height="21"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/2002/04/the-edge-alec-baldwin</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The Edge  producer on  bears, beards,  and Baldwins_7734_4645_69_320_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="69" y="16704" width="105" height="21"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/2002/04/the-edge-alec-baldwin</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The Edge  producer on  bears, beards,  and Baldwins_6298_3895_83_253_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="83" y="12541" width="105" height="21"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/2002/04/the-edge-alec-baldwin</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The Edge  producer on  bears, beards,  and Baldwins_7734_4645_66_336_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="66" y="16720" width="112" height="21"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/2002/04/the-edge-alec-baldwin</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The Edge  producer on  bears, beards,  and Baldwins_6298_3895_80_269_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="80" y="12557" width="112" height="21"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/2002/04/the-edge-alec-baldwin</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The Edge  producer on  bears, beards,  and Baldwins_7734_4645_66_352_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="66" y="16736" width="104" height="21"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/2002/04/the-edge-alec-baldwin</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The Edge  producer on  bears, beards,  and Baldwins_6298_3895_80_285_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="80" y="12573" width="104" height="21"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/2002/04/the-edge-alec-baldwin</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="VF.comARCHIVE_6860_4645_67_266_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="67" y="16650" width="137" height="24"/>
+            </portraitBounds>
+            <data>
+              <url>http://vf.com/archive</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="VF.comARCHIVE_5561_3895_81_198_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="81" y="12486" width="137" height="24"/>
+            </landscapeBounds>
+            <data>
+              <url>http://vf.com/archive</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="Alec Baldwin  gets the Proust treatment_7690_4645_69_504_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="69" y="16888" width="106" height="21"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.vanityfair.com/culture/features/2009/06/proust-alec-baldwin200906</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="Alec Baldwin  gets the Proust treatment_6288_3895_83_437_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="83" y="12725" width="106" height="21"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.vanityfair.com/culture/features/2009/06/proust-alec-baldwin200906</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="Alec Baldwin  gets the Proust treatment_7690_4645_61_520_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="61" y="16904" width="119" height="21"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.vanityfair.com/culture/features/2009/06/proust-alec-baldwin200906</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="Alec Baldwin  gets the Proust treatment_6288_3895_75_453_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="75" y="12741" width="119" height="21"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.vanityfair.com/culture/features/2009/06/proust-alec-baldwin200906</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="Alec Baldwin  gets the Proust treatment_7690_4645_80_536_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="80" y="16920" width="75" height="21"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.vanityfair.com/culture/features/2009/06/proust-alec-baldwin200906</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="Alec Baldwin  gets the Proust treatment_6288_3895_94_469_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="94" y="12757" width="75" height="21"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.vanityfair.com/culture/features/2009/06/proust-alec-baldwin200906</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The brothers  Baldwin  hit Hollywood_7738_4645_71_412_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="71" y="16796" width="102" height="21"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/1989/05/baldwin-brothers</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The brothers  Baldwin  hit Hollywood_6313_3895_85_345_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="85" y="12633" width="102" height="21"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/1989/05/baldwin-brothers</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The brothers  Baldwin  hit Hollywood_7738_4645_87_428_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="87" y="16812" width="70" height="21"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/1989/05/baldwin-brothers</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The brothers  Baldwin  hit Hollywood_6313_3895_101_361_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="101" y="12649" width="70" height="21"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/1989/05/baldwin-brothers</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The brothers  Baldwin  hit Hollywood_7738_4645_62_444_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="62" y="16828" width="112" height="21"/>
+            </portraitBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/1989/05/baldwin-brothers</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="The brothers  Baldwin  hit Hollywood_6313_3895_76_377_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="76" y="12665" width="112" height="21"/>
+            </landscapeBounds>
+            <data>
+              <url>http://www.vanityfair.com/hollywood/features/1989/05/baldwin-brothers</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="First Page 14_7557_P" type="hyperlink" lastUpdated="2012-07-31T23:09:09Z">
+            <portraitBounds>
+              <rectangle x="26" y="17280" width="183" height="68"/>
+            </portraitBounds>
+            <data>
+              <url>navto://7100_VF0812_BALDWIN#0.0</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+          <overlay id="First Page 11_6095_L" type="hyperlink" lastUpdated="2012-07-31T23:09:19Z">
+            <landscapeBounds>
+              <rectangle x="50" y="12928" width="183" height="68"/>
+            </landscapeBounds>
+            <data>
+              <url>navto://7100_VF0812_BALDWIN#0.0</url>
+              <reqNavConfirm>false</reqNavConfirm>
+              <openInApp>true</openInApp>
+            </data>
+          </overlay>
+        </overlays>
+      </content>
+    </contentStack>
+  </contentStacks>
+</folio>
