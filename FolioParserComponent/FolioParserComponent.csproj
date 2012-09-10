@@ -102,6 +102,7 @@
     <Compile Include="Article.cs" />
     <Compile Include="ArticleFolioParser.cs" />
     <Compile Include="AudioOverlay.cs" />
+    <Compile Include="ImagepanOverlay.cs" />
     <Compile Include="OverlayButton.cs" />
     <Compile Include="HyperlinkOverlay.cs" />
     <Compile Include="IArticleFolioParser.cs" />

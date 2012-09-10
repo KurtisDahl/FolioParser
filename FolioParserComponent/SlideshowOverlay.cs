@@ -13,7 +13,7 @@ namespace FolioParserComponent
         public SlideshowOverlay()
         {
             this.OverlayAssets = new List<OverlayAsset>();
-            this.Buttons = new List<OverlayButton>();
+            this.OverlayButtons = new List<OverlayButton>();
         }
 
         [DataMember(Name = "id", IsRequired = true)]
@@ -89,7 +89,7 @@ namespace FolioParserComponent
         public double DisplayBoundsWidth { get; set; }
 
         [DataMember(Name = "buttons", IsRequired = true)]
-        public IList<OverlayButton> Buttons { get; set; }
+        public IList<OverlayButton> OverlayButtons { get; set; }
 
     }
 }

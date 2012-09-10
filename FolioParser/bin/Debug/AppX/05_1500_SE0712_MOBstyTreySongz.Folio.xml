@@ -1,0 +1,198 @@
+<folio version="1.7.0" lastUpdated="2012-08-22T23:15:40Z" id="05_1500_SE0712_MOBstyTreySongz" orientation="always">
+	<metadata>
+		<description>Canned Description</description>
+		<magazineTitle>Canned Magazine Title</magazineTitle>
+		<folioNumber>12345</folioNumber>
+	</metadata>
+	<targetDimensions>
+		<targetDimension wideDimension="1024" narrowDimension="768">
+		</targetDimension>
+	</targetDimensions>
+	<contentStacks>
+		<contentStack lastUpdated="2012-08-22T23:15:40Z" id="05_1500_SE0712_MOBstyTreySongz" smoothScrolling="never" layout="vertical" subfolio="05_1500_SE0712_MOBstyTreySongz.folio" alwaysDisplayOverlays="false" orientation="always">
+			<content>
+				<previews>
+					<toc>StackResources/toc.png</toc>
+				</previews>
+				<regions>
+					<region>
+						<portraitBounds>
+							<rectangle x="0" y="0" width="768" height="1024"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="0" y="0" width="1024" height="768"></rectangle>
+						</landscapeBounds>
+						<metadata lastUpdated="2012-08-22T23:15:36Z">
+							<title>Your Party Playbook</title>
+							<description>Our R&amp;B crush, Trey Songz, serves up sporty-chic style for your next night out.</description>
+							<tags>style, accessories, shopping, fashion trends</tags>
+							<kicker>Feature</kicker>
+							<isAdvertisement>false</isAdvertisement>
+							<hasAudio>false</hasAudio>
+							<hasVideo>true</hasVideo>
+							<hasSlideshow>true</hasSlideshow>
+						</metadata>
+					</region>
+				</regions>
+				<assets>
+					<asset landscape="false">
+						<assetRendition type="raster" source="StackResources/asset_P1.png" includesOverlays="false" width="768" height="1024" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_P1.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_P1.png" includesOverlays="true" width="125" height="166" role="scrubber"/>
+					</asset>
+					<asset landscape="true">
+						<assetRendition type="raster" source="StackResources/asset_L1.png" includesOverlays="false" width="1024" height="768" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_L1.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_L1.png" includesOverlays="true" width="221" height="166" role="scrubber"/>
+					</asset>
+				</assets>
+				<overlays>
+					<overlay id="Multi-state 3" type="slideshow" lastUpdated="2012-08-22T23:15:40Z">
+						<portraitBounds>
+							<rectangle x="0" y="334" width="515" height="678"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="0" y="272" width="754" height="457"></rectangle>
+						</landscapeBounds>
+						<data>
+							<drawHighlight>false</drawHighlight>
+							<selectedHighlight>0</selectedHighlight>
+							<crossFadeImages>true</crossFadeImages>
+							<crossFadeImagesDelay>0.5000</crossFadeImagesDelay>
+							<defaultSelected>true</defaultSelected>
+							<autoStart>false</autoStart>
+							<autoStartDelay>0.0000</autoStartDelay>
+							<autoTransitionDuration>2.0000</autoTransitionDuration>
+							<loopCount>-1</loopCount>
+							<reverseImageOrder>false</reverseImageOrder>
+							<tapEnabled>false</tapEnabled>
+							<swipeEnabled>false</swipeEnabled>
+							<swipeStop>false</swipeStop>
+							<overlayAsset id="Multi-state 3_State 1_5828_P" width="260" height="442" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Multi-state 3_State 1_5828_P.png</overlayAsset>
+							<overlayAsset id="Button 34_Normal_12751_P" width="212" height="440" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Button 34_Normal_12751_P.png</overlayAsset>
+							<overlayAsset id="Multi-state 3_State 2_5804_P" width="260" height="442" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Multi-state 3_State 2_5804_P.png</overlayAsset>
+							<overlayAsset id="Button 3_Normal_5836_P" width="165" height="97" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Button 3_Normal_5836_P.png</overlayAsset>
+							<overlayAsset id="Multi-state 3_State 1_4418_L" width="258" height="443" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Multi-state 3_State 1_4418_L.png</overlayAsset>
+							<overlayAsset id="Button 37_Normal_11581_L" width="188" height="373" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Button 37_Normal_11581_L.png</overlayAsset>
+							<overlayAsset id="Button 39_Normal_11806_L" width="215" height="444" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Button 39_Normal_11806_L.png</overlayAsset>
+							<overlayAsset id="Multi-state 3_State 2_4394_L" width="258" height="443" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Multi-state 3_State 2_4394_L.png</overlayAsset>
+							<overlayAsset id="Button 11_Normal_6783_L" width="149" height="84" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Button 11_Normal_6783_L.png</overlayAsset>
+							<portraitLayout>
+								<displayBounds>
+									<rectangle x="0" y="0" width="260" height="442"></rectangle>
+								</displayBounds>
+								<buttons>
+									<button targetID="Multi-state 3_State 1_5828_P" defaultID="Button 34_Normal_12751_P" selectedID="" stopEnabled="false">
+										<bounds>
+											<rectangle x="48" y="2" width="212" height="440"></rectangle>
+										</bounds>
+									</button>
+									<button targetID="nextSlide" defaultID="Button 3_Normal_5836_P" selectedID="" stopEnabled="false">
+										<bounds>
+											<rectangle x="350" y="581" width="165" height="97"></rectangle>
+										</bounds>
+									</button>
+								</buttons>
+							</portraitLayout>
+							<landscapeLayout>
+								<displayBounds>
+									<rectangle x="0" y="1" width="258" height="443"></rectangle>
+								</displayBounds>
+								<buttons>
+									<button targetID="Multi-state 3_State 1_4418_L" defaultID="Button 37_Normal_11581_L" selectedID="" stopEnabled="false">
+										<bounds>
+											<rectangle x="47" y="72" width="188" height="373"></rectangle>
+										</bounds>
+									</button>
+									<button targetID="Multi-state 3_State 1_4418_L" defaultID="Button 39_Normal_11806_L" selectedID="" stopEnabled="false">
+										<bounds>
+											<rectangle x="44" y="0" width="215" height="444"></rectangle>
+										</bounds>
+									</button>
+									<button targetID="nextSlide" defaultID="Button 11_Normal_6783_L" selectedID="" stopEnabled="false">
+										<bounds>
+											<rectangle x="606" y="373" width="149" height="84"></rectangle>
+										</bounds>
+									</button>
+								</buttons>
+							</landscapeLayout>
+						</data>
+					</overlay>
+					<overlay id="Tap line 21" type="slideshow" lastUpdated="2012-08-22T23:15:40Z">
+						<portraitBounds>
+							<rectangle x="353" y="918" width="160" height="90"></rectangle>
+						</portraitBounds>
+						<data>
+							<drawHighlight>false</drawHighlight>
+							<selectedHighlight>0</selectedHighlight>
+							<crossFadeImages>false</crossFadeImages>
+							<crossFadeImagesDelay>0.5000</crossFadeImagesDelay>
+							<defaultSelected>true</defaultSelected>
+							<autoStart>true</autoStart>
+							<autoStartDelay>0.0000</autoStartDelay>
+							<autoTransitionDuration>1.0000</autoTransitionDuration>
+							<loopCount>1</loopCount>
+							<reverseImageOrder>false</reverseImageOrder>
+							<tapEnabled>false</tapEnabled>
+							<swipeEnabled>false</swipeEnabled>
+							<swipeStop>false</swipeStop>
+							<overlayAsset id="Tap line 21_State 1_8013_P" width="160" height="90" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Tap line 21_State 1_8013_P.png</overlayAsset>
+							<overlayAsset id="Tap line 21_State 2_8037_P" width="160" height="90" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Tap line 21_State 2_8037_P.png</overlayAsset>
+							<portraitLayout>
+								<displayBounds>
+									<rectangle x="0" y="0" width="160" height="90"></rectangle>
+								</displayBounds>
+								<buttons>
+								</buttons>
+							</portraitLayout>
+						</data>
+					</overlay>
+					<overlay id="Tap line 20" type="slideshow" lastUpdated="2012-08-22T23:15:40Z">
+						<landscapeBounds>
+							<rectangle x="599" y="643" width="160" height="90"></rectangle>
+						</landscapeBounds>
+						<data>
+							<drawHighlight>false</drawHighlight>
+							<selectedHighlight>0</selectedHighlight>
+							<crossFadeImages>false</crossFadeImages>
+							<crossFadeImagesDelay>0.5000</crossFadeImagesDelay>
+							<defaultSelected>true</defaultSelected>
+							<autoStart>true</autoStart>
+							<autoStartDelay>0.0000</autoStartDelay>
+							<autoTransitionDuration>1.0000</autoTransitionDuration>
+							<loopCount>1</loopCount>
+							<reverseImageOrder>false</reverseImageOrder>
+							<tapEnabled>false</tapEnabled>
+							<swipeEnabled>false</swipeEnabled>
+							<swipeStop>false</swipeStop>
+							<overlayAsset id="Tap line 20_State 1_6642_L" width="160" height="90" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Tap line 20_State 1_6642_L.png</overlayAsset>
+							<overlayAsset id="Tap line 20_State 2_6667_L" width="160" height="90" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-90198685/Tap line 20_State 2_6667_L.png</overlayAsset>
+							<landscapeLayout>
+								<displayBounds>
+									<rectangle x="0" y="0" width="160" height="90"></rectangle>
+								</displayBounds>
+								<buttons>
+								</buttons>
+							</landscapeLayout>
+						</data>
+					</overlay>
+					<overlay id="Trey_ipad.mov_9765_P" type="video" lastUpdated="2012-08-22T23:15:40Z">
+						<portraitBounds>
+							<rectangle x="637" y="394" width="89" height="135"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="891" y="45" width="89" height="135"></rectangle>
+						</landscapeBounds>
+						<data>
+							<videoUrl>OverlayResources/Overlay Resources/Trey_ipad.mov</videoUrl>
+							<playInContext>false</playInContext>
+							<showControlsByDefault>false</showControlsByDefault>
+							<autoStart>false</autoStart>
+							<autoStartDelay>0.0000</autoStartDelay>
+						</data>
+					</overlay>
+				</overlays>
+			</content>
+		</contentStack>
+	</contentStacks>
+</folio>

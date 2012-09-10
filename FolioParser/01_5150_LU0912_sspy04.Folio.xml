@@ -1,0 +1,467 @@
+<folio version="1.7.0" lastUpdated="2012-08-22T23:15:22Z" id="01_5150_LU0912_sspy04" orientation="always">
+	<metadata>
+		<description>Canned Description</description>
+		<magazineTitle>Canned Magazine Title</magazineTitle>
+		<folioNumber>12345</folioNumber>
+	</metadata>
+	<targetDimensions>
+		<targetDimension wideDimension="1024" narrowDimension="768">
+		</targetDimension>
+	</targetDimensions>
+	<contentStacks>
+		<contentStack lastUpdated="2012-08-22T23:15:22Z" id="01_5150_LU0912_sspy04" smoothScrolling="always" layout="vertical" subfolio="01_5150_LU0912_sspy04.folio" alwaysDisplayOverlays="false" orientation="always">
+			<content>
+				<previews>
+					<toc>StackResources/toc.png</toc>
+				</previews>
+				<regions>
+					<region>
+						<portraitBounds>
+							<rectangle x="0" y="0" width="768" height="2096"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="0" y="0" width="1024" height="1344"></rectangle>
+						</landscapeBounds>
+						<metadata lastUpdated="2012-08-22T23:15:18Z">
+							<title>The Perfect Day-to-Night Dress</title>
+							<description>Trends, Talent &amp; Fashion News: Suddenly Everywhere</description>
+							<author>Edited by Jen Ford</author>
+							<tags>Style Spy</tags>
+							<kicker>Style Spy</kicker>
+							<isAdvertisement>false</isAdvertisement>
+							<hasAudio>false</hasAudio>
+							<hasVideo>false</hasVideo>
+							<hasSlideshow>false</hasSlideshow>
+						</metadata>
+					</region>
+				</regions>
+				<assets>
+					<asset landscape="false">
+						<assetRendition type="raster" source="StackResources/asset_P1_0.png" includesOverlays="false" width="768" height="1024" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_P1_0.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_P1.png" includesOverlays="true" width="125" height="166" role="scrubber"/>
+					</asset>
+					<asset landscape="false">
+						<assetRendition type="raster" source="StackResources/asset_P1_1.png" includesOverlays="false" width="768" height="1024" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_P1_1.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+					</asset>
+					<asset landscape="false">
+						<assetRendition type="raster" source="StackResources/asset_P1_2.png" includesOverlays="false" width="768" height="48" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_P1_2.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+					</asset>
+					<asset landscape="true">
+						<assetRendition type="raster" source="StackResources/asset_L1_0.png" includesOverlays="false" width="1024" height="768" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_L1_0.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_L1.png" includesOverlays="true" width="221" height="166" role="scrubber"/>
+					</asset>
+					<asset landscape="true">
+						<assetRendition type="raster" source="StackResources/asset_L1_1.png" includesOverlays="false" width="1024" height="576" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_L1_1.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+					</asset>
+				</assets>
+				<overlays>
+					<overlay id="Lurex dress, $620, A.P.C. &amp; Vanessa Seward, apc.fr 12_6960_4095_360_479_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="360" y="479" width="267" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_02</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Lurex dress, $620, A.P.C. &amp; Vanessa Seward, apc.fr 12_5285_3545_276_668_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="276" y="668" width="215" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_02</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Lurex dress, $620, A.P.C. &amp; Vanessa Seward, apc.fr 12_6960_4095_626_479_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="626" y="479" width="38" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_02</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Lurex dress, $620, A.P.C. &amp; Vanessa Seward, apc.fr 12_5285_3545_276_685_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="276" y="685" width="52" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_02</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Patent “Whistle” pumps, $70, chineselaundry.com 11_6961_4095_360_497_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="360" y="497" width="178" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://www.chineselaundry.com/whistle-patent</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Lurex dress, $620, A.P.C. &amp; Vanessa Seward, apc.fr 12_5285_3545_328_685_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="328" y="685" width="38" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_02</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Patent “Whistle” pumps, $70, chineselaundry.com 11_6961_4095_537_497_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="537" y="497" width="128" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://www.chineselaundry.com/whistle-patent</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Patent “Whistle” pumps, $70, chineselaundry.com 11_5286_3545_372_685_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="372" y="685" width="149" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://www.chineselaundry.com/whistle-patent</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Copper and aluminum collar, $78, LAB by Laura Busony, etsy.comshoplaurabusony 10_6979_4095_299_1860_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="299" y="1860" width="173" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_04</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Patent “Whistle” pumps, $70, chineselaundry.com 11_5286_3545_276_703_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="276" y="703" width="29" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://www.chineselaundry.com/whistle-patent</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Copper and aluminum collar, $78, LAB by Laura Busony, etsy.comshoplaurabusony 10_6979_4095_305_1878_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="305" y="1878" width="166" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_04</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Patent “Whistle” pumps, $70, chineselaundry.com 11_5286_3545_305_703_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="305" y="703" width="128" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://www.chineselaundry.com/whistle-patent</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Copper and aluminum collar, $78, LAB by Laura Busony, etsy.comshoplaurabusony 10_6979_4095_295_1895_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="295" y="1895" width="178" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_04</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Copper and aluminum collar, $78, LAB by Laura Busony, etsy.comshoplaurabusony 10_5292_3545_349_1208_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="349" y="1208" width="132" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_04</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Gold-tone floral collar, $24, mikkatmarket.com 10_6985_4095_496_1632_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="496" y="1632" width="164" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_05</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Copper and aluminum collar, $78, LAB by Laura Busony, etsy.comshoplaurabusony 10_5292_3545_334_1226_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="334" y="1226" width="147" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_04</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Gold-tone floral collar, $24, mikkatmarket.com 10_6985_4095_516_1649_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="516" y="1649" width="120" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_05</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Copper and aluminum collar, $78, LAB by Laura Busony, etsy.comshoplaurabusony 10_5292_3545_330_1243_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="330" y="1243" width="51" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_04</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Leather “Fay”  totes, $348  each, Isaac Mizrahi  New York, isaacmizrahiny.com 11_6967_4095_603_822_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="603" y="822" width="82" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_01</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Copper and aluminum collar, $78, LAB by Laura Busony, etsy.comshoplaurabusony 10_5292_3545_381_1243_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="381" y="1243" width="99" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_04</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Leather “Fay”  totes, $348  each, Isaac Mizrahi  New York, isaacmizrahiny.com 11_6967_4095_618_840_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="618" y="840" width="67" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_01</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Copper and aluminum collar, $78, LAB by Laura Busony, etsy.comshoplaurabusony 10_5292_3545_402_1261_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="402" y="1261" width="79" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_04</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Leather “Fay”  totes, $348  each, Isaac Mizrahi  New York, isaacmizrahiny.com 11_6967_4095_571_858_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="571" y="858" width="114" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_01</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Gold-tone floral collar, $24, mikkatmarket.com 10_5298_3545_771_1058_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="771" y="1058" width="164" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_05</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Leather “Fay”  totes, $348  each, Isaac Mizrahi  New York, isaacmizrahiny.com 11_6967_4095_624_876_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="624" y="876" width="60" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_01</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Gold-tone floral collar, $24, mikkatmarket.com 10_5298_3545_791_1075_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="791" y="1075" width="120" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_05</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Leather “Fay”  totes, $348  each, Isaac Mizrahi  New York, isaacmizrahiny.com 11_6967_4095_558_893_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="558" y="893" width="127" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_01</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Leather “Fay”  totes, $348  each, Isaac Mizrahi  New York, isaacmizrahiny.com 11_5304_3545_858_404_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="858" y="404" width="82" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_01</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Agate and brass bib  necklace, $58,  anthropologie.com 10_6973_4095_146_1632_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="146" y="1632" width="125" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_03</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Leather “Fay”  totes, $348  each, Isaac Mizrahi  New York, isaacmizrahiny.com 11_5304_3545_873_422_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="873" y="422" width="67" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_01</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Agate and brass bib  necklace, $58,  anthropologie.com 10_6973_4095_162_1650_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="162" y="1650" width="93" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_03</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Leather “Fay”  totes, $348  each, Isaac Mizrahi  New York, isaacmizrahiny.com 11_5304_3545_826_440_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="826" y="440" width="114" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_01</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Agate and brass bib  necklace, $58,  anthropologie.com 10_6973_4095_144_1667_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="144" y="1667" width="121" height="16"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_03</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Leather “Fay”  totes, $348  each, Isaac Mizrahi  New York, isaacmizrahiny.com 11_5304_3545_879_458_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="879" y="458" width="60" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_01</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="TapForPhotoCredit_Button_6142_P" type="hyperlink" lastUpdated="2012-08-22T23:15:20Z">
+						<portraitBounds>
+							<rectangle x="58" y="2044" width="210" height="38"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>navto://9400_LU0912_photocredits</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Leather “Fay”  totes, $348  each, Isaac Mizrahi  New York, isaacmizrahiny.com 11_5304_3545_813_475_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="813" y="475" width="127" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_01</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Agate and brass bib  necklace, $58,  anthropologie.com 10_5310_3545_580_1004_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="580" y="1004" width="125" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_03</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Agate and brass bib  necklace, $58,  anthropologie.com 10_5310_3545_580_1022_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="580" y="1022" width="93" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_03</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Agate and brass bib  necklace, $58,  anthropologie.com 10_5310_3545_580_1039_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="580" y="1039" width="121" height="16"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://cnstud.io/de/0912/5150_LU0912_sspy04_03</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="TapForPhotoCredit_Button_5043_L" type="hyperlink" lastUpdated="2012-08-22T23:15:22Z">
+						<landscapeBounds>
+							<rectangle x="58" y="1292" width="210" height="38"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>navto://9400_LU0912_photocredits</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+				</overlays>
+			</content>
+		</contentStack>
+	</contentStacks>
+</folio>

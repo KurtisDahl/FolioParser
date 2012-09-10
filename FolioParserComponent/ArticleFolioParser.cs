@@ -19,110 +19,41 @@ namespace FolioParserComponent
             Stream stream = await articleFolioFile.OpenStreamForReadAsync();
 
             XmlReader reader = XmlReader.Create(stream);
-            if (reader != null)
+            while (reader.Read())
             {
-                if (reader.ReadToFollowing("contentStack"))
+                if (reader.NodeType != XmlNodeType.EndElement)
                 {
-                    while (reader.MoveToNextAttribute())
+                    switch (reader.Name)
                     {
-                        if (reader.Name == "id")
-                        {
-                            article.Id = reader.Value;
-                        }
+                        case "contentStack":
+                            article.Id = reader.GetAttribute("id");
+                            break;
+                        case "title":
+                            reader.Read();
+                            article.Title = reader.Value;
+                            break;
+                        case "description":
+                            reader.Read();
+                            article.Description = reader.Value;
+                            break;
+                        case "author":
+                            reader.Read();
+                            article.Author = reader.Value;
+                            break;
+                        case "kicker":
+                            reader.Read();
+                            article.Kicker = reader.Value;
+                            break;
+                        case "assets":
+                            article.Pages = parsePages(reader);
+                            break;
+                        case "overlays":
+                            article = parseOverlays(reader, article);
+                            break;
+                        default:
+                            break;
                     }
                 }
-
-                if(reader.ReadToFollowing("title"))
-                {
-                    reader.Read();
-                    article.Title = reader.Value;
-                }
-                if (reader.ReadToFollowing("description"))
-                {
-                    reader.Read();
-                    article.Description = reader.Value;
-                }
-                if (reader.ReadToFollowing("author"))
-                {
-                    reader.Read();
-                    article.Author = reader.Value;
-                }
-                if (reader.ReadToFollowing("kicker"))
-                {
-                    reader.Read();
-                    article.Kicker = reader.Value;
-                }
-                if (reader.ReadToFollowing("assets"))
-                {
-                    article.Pages = parsePages(reader);
-                }
-
-                if (reader.ReadToFollowing("overlays"))
-                {
-                    article = parseOverlays(reader, article);
-                }
-
-            //string prevName = "";
-            //    while (reader.Read())
-            //    {
-            //        switch (reader.NodeType)
-            //        {
-            //            case XmlNodeType.Element: // The node is an element.
-            //                if (reader.Name == "contentStack")
-            //                {
-            //                    while (reader.MoveToNextAttribute())
-            //                    {
-            //                        switch (reader.Name)
-            //                        {
-            //                            case "id":
-            //                                article.Id = reader.Value;
-            //                                break;
-            //                            default:
-            //                                break;
-            //                        }
-            //                    }
-            //                }
-            //                else if (reader.Name == "assets")
-            //                {
-            //                    article.Pages = parsePages(reader);
-            //                }
-            //                else if (reader.Name == "overlays")
-            //                {
-            //                    parseHyperlinkOverlays(reader);
-            //                }
-            //                else
-            //                {
-            //                    prevName = reader.Name;
-            //                }
-            //                break;
-            //            case XmlNodeType.Text: //Display the text in each element.
-            //                switch (prevName)
-            //                {
-            //                    case "title":
-            //                        article.Title = reader.Value;
-            //                        prevName = "";
-            //                        break;
-            //                    case "description":
-            //                        article.Description = reader.Value;
-            //                        prevName = "";
-            //                        break;
-            //                    case "author":
-            //                        article.Author = reader.Value;
-            //                        break;
-            //                    case "kicker":
-            //                        article.Kicker = reader.Value;
-            //                        break;
-            //                    default:
-            //                        break;
-            //                }
-
-            //                break;
-            //            case XmlNodeType.EndElement: //Display the end of the element.
-            //                break;
-            //            default:
-            //                break;
-            //        }
-            //    }
             }
             return article;
         }
@@ -138,20 +69,11 @@ namespace FolioParserComponent
                     {
                         pages.Add(parsePortraitPage(reader));
                     }
-                    else if (reader.GetAttribute("landscape") == "true") //
+                    else if (reader.GetAttribute("landscape") == "true") // add landscape assets to existing page or create new one if it doesn't exist.
                     {
                         bool found = false;
                         Page newPage = parseLandscapePage(reader);
-                        // find the existing page in the dictionary
-
-                        //Page page = (from p in pages
-                        //             where p.Id == newPage.Id
-                        //             select p).FirstOrDefault();
-                        //if (page != null)
-                        //{
-                        //    pages[pages.IndexOf(page)] = page + newPage;
-                        //}
-
+                        // find the existing page in the List of pages
                         foreach (Page p in pages)
                         {
                             if (p.Id == newPage.Id)
@@ -369,32 +291,87 @@ namespace FolioParserComponent
                             article.Pages[landscapeTuple.Item1].HyperlinkOverlays.Add(landscapeHO);
                         }
                         break;
+                    case "imagepan":
+                        ImagepanOverlay portraitIO = new ImagepanOverlay();
+                        ImagepanOverlay landscapeIO = new ImagepanOverlay();
+                        
+                        while (reader.Read())
+                        {
+                            if (reader.Name == "anchorPoint")
+                            {
+                                break;
+                            }
+                            else if (reader.Name == "overlayAsset")
+                            {
+                                if (reader.GetAttribute("landscape") == "false")
+                                {
+                                    portraitIO.OverlayAssets.Add(parseOverlayAsset(reader));
+                                }
+                                else if (reader.GetAttribute("landscape") == "true")
+                                {
+                                    landscapeIO.OverlayAssets.Add(parseOverlayAsset(reader));
+                                }
+                            }
+                        }
+
+                        ImagepanOverlay io = parseImagepanOverlay(reader);
+                        
+
+                        if (portraitTuple.Item1 != -1)
+                        {
+                            portraitIO.Id = id + "_P";
+                            portraitIO.Orientation = "portrait";
+                            portraitIO.X = portraitX;
+                            portraitIO.Y = portraitTuple.Item2;
+                            portraitIO.Width = portraitWidth;
+                            portraitIO.Height = portraitHeight;
+                            portraitIO.AnchorX = io.AnchorX;
+                            portraitIO.AnchorY = io.AnchorY;
+                             while (reader.Read())
+                            {
+                                if ((reader.Name == "portraitBounds" && reader.NodeType == XmlNodeType.EndElement) || reader.Name == "landscapeBounds")
+                                {
+                                    break;
+                                }
+                                else if (reader.Name == "portraitBounds")
+                                {
+                                    portraitIO = parseImagepanOverlayViewportbounds(reader, portraitIO);
+                                } 
+                            }
+                           
+                            article.Pages[portraitTuple.Item1].ImagepanOverlays.Add(portraitIO);
+                        }
+                        if (landscapeTuple.Item1 != -1)
+                        {
+                            landscapeIO.Id = id + "_L";
+                            landscapeIO.Orientation = "landscape";
+                            landscapeIO.X = landscapeX;
+                            landscapeIO.Y = landscapeTuple.Item2;
+                            landscapeIO.Width = landscapeWidth;
+                            landscapeIO.Height = landscapeHeight;
+                            landscapeIO.AnchorX = io.AnchorX;
+                            landscapeIO.AnchorY = io.AnchorY;
+
+                            do{
+                                if(reader.Name == "initialViewport" && reader.NodeType == XmlNodeType.EndElement)
+                                {
+                                    break;
+                                }
+                                else if (reader.Name == "landscapeBounds")
+                                {
+                                    landscapeIO = parseImagepanOverlayViewportbounds(reader, landscapeIO);
+                                }
+                            }while (reader.Read());
+
+                            article.Pages[landscapeTuple.Item1].ImagepanOverlays.Add(landscapeIO);
+                        }
+                        break;
                     case "slideshow":
                         // shared slideshow overlay attributes
                         SlideshowOverlay so = parseSlideShowOverlay(reader);
                         SlideshowOverlay portraitSO = so;
                         SlideshowOverlay landscapeSO = so;
-                        if (portraitTuple.Item1 != -1)
-                        {
-                            //create a portrait overlay
-                            portraitSO.Id = id + "_P";
-                            portraitSO.X = portraitX;
-                            portraitSO.Y = portraitTuple.Item2;
-                            portraitSO.Width = portraitWidth;
-                            portraitSO.Height = portraitHeight;
-                            portraitSO.Orientation = "portrait";
-                        }
-                        if (landscapeTuple.Item1 != -1)
-                        {
-                            //create a landscape overlay
-                            landscapeSO.Id = id + "_L";
-                            landscapeSO.X = landscapeX;
-                            landscapeSO.Y = landscapeTuple.Item2;
-                            landscapeSO.Width = landscapeWidth;
-                            landscapeSO.Height = landscapeHeight;
-                            landscapeSO.Orientation = "landscape";
-                        }
-
+                        
                         while (reader.Read())
                         {
                             if (reader.Name == "portraitLayout" || reader.Name == "landscapeLayout")
@@ -416,18 +393,55 @@ namespace FolioParserComponent
 
                         if (portraitTuple.Item1 != -1)
                         {
+                            portraitSO.Id = id + "_P";
+                            portraitSO.X = portraitX;
+                            portraitSO.Y = portraitTuple.Item2;
+                            portraitSO.Width = portraitWidth;
+                            portraitSO.Height = portraitHeight;
+                            portraitSO.Orientation = "portrait";
+
                             if (reader.Name == "portraitLayout")
                             {
                                 portraitSO = parseSlideshowOverlayDisplaybounds(reader, portraitSO);
+                                while (reader.Read())
+                                {
+                                    if (reader.Name == "landscapeLayout" || (reader.Name == "data" && reader.NodeType == XmlNodeType.EndElement))
+                                    {
+                                        break;
+                                    }
+                                    else if (reader.Name == "button")
+                                    {
+                                        portraitSO.OverlayButtons.Add(parseOverlayButton(reader));
+                                    }
+                                }
                             }
                             article.Pages[portraitTuple.Item1].SlideshowOverlays.Add(portraitSO);
                         }
                         if (landscapeTuple.Item1 != -1)
                         {
+                            landscapeSO.Id = id + "_L";
+                            landscapeSO.X = landscapeX;
+                            landscapeSO.Y = landscapeTuple.Item2;
+                            landscapeSO.Width = landscapeWidth;
+                            landscapeSO.Height = landscapeHeight;
+                            landscapeSO.Orientation = "landscape";
+
                             if (reader.Name == "landscapeLayout")
                             {
                                 landscapeSO = parseSlideshowOverlayDisplaybounds(reader, landscapeSO);
+                                while (reader.Read())
+                                {
+                                    if (reader.Name == "data" && reader.NodeType == XmlNodeType.EndElement)
+                                    {
+                                        break;
+                                    }
+                                    else if (reader.Name == "button")
+                                    {
+                                        landscapeSO.OverlayButtons.Add(parseOverlayButton(reader));
+                                    }
+                                }
                             }
+                            
                             article.Pages[landscapeTuple.Item1].SlideshowOverlays.Add(landscapeSO);
                         }
                         break;
@@ -539,6 +553,31 @@ namespace FolioParserComponent
             return oa;
         }
 
+        public OverlayButton parseOverlayButton(XmlReader reader)
+        {
+            OverlayButton ob = new OverlayButton();
+            ob.Id = reader.GetAttribute("defaultID");
+            ob.TargetId = reader.GetAttribute("targetID");
+            ob.SelectedId = reader.GetAttribute("selectedID");
+            ob.StopEnabled = Convert.ToBoolean(reader.GetAttribute("stopEnabled"));
+            while (reader.Read())
+            {
+                if (reader.Name == "button" && reader.NodeType == XmlNodeType.EndElement)
+                {
+                    break;
+                }
+                else if (reader.Name == "rectangle")
+                {
+                    ob.X = Convert.ToDouble(reader.GetAttribute("x"));
+                    ob.Y = Convert.ToDouble(reader.GetAttribute("y"));
+                    ob.Height = Convert.ToDouble(reader.GetAttribute("height"));
+                    ob.Width = Convert.ToDouble(reader.GetAttribute("width"));
+                }
+            }
+
+            return ob;
+        }
+
         public SlideshowOverlay parseSlideshowOverlayDisplaybounds(XmlReader reader, SlideshowOverlay so)
         {
             if (reader.ReadToFollowing("rectangle"))
@@ -549,6 +588,18 @@ namespace FolioParserComponent
                 so.DisplayBoundsHeight = Convert.ToDouble(reader.GetAttribute("height"));
             }
             return so;
+        }
+
+        public ImagepanOverlay parseImagepanOverlayViewportbounds(XmlReader reader, ImagepanOverlay io)
+        {
+            if (reader.ReadToFollowing("rectangle"))
+            {
+                io.ViewPortBoundsX = Convert.ToDouble(reader.GetAttribute("x"));
+                io.ViewPortBoundsY = Convert.ToDouble(reader.GetAttribute("y"));
+                io.ViewPortBoundsWidth = Convert.ToDouble(reader.GetAttribute("width"));
+                io.ViewPortBoundsHeight = Convert.ToDouble(reader.GetAttribute("height"));
+            }
+            return io;
         }
 
         public AudioOverlay parseAudioOverlay(XmlReader reader)
@@ -607,6 +658,24 @@ namespace FolioParserComponent
                 }
             }
             return ho;
+        }
+
+        public ImagepanOverlay parseImagepanOverlay(XmlReader reader)
+        {
+            ImagepanOverlay io = new ImagepanOverlay();
+            while (reader.Read())
+            {
+                if (reader.Name == "landscapeBounds" || reader.Name == "portraitLayout")
+                {
+                    break;
+                }
+                else if (reader.Name == "point")
+                {
+                    io.AnchorX = Convert.ToDouble(reader.GetAttribute("x"));
+                    io.AnchorY = Convert.ToDouble(reader.GetAttribute("y"));
+                }
+            }
+            return io;
         }
 
         public SlideshowOverlay parseSlideShowOverlay(XmlReader reader)

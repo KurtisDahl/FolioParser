@@ -14,6 +14,7 @@ namespace FolioParserComponent
         {
             this.AudioOverlays = new List<AudioOverlay>();
             this.HyperlinkOverlays = new List<HyperlinkOverlay>();
+            this.ImagepanOverlays = new List<ImagepanOverlay>();
             this.SlideshowOverlays = new List<SlideshowOverlay>();
             this.WebviewOverlay = new List<WebviewOverlay>();
             this.VideoOverlays = new List<VideoOverlay>();
@@ -120,6 +121,9 @@ namespace FolioParserComponent
 
         [DataMember(Name = "hyperlinkOverlays", IsRequired = true)]
         public IList<HyperlinkOverlay> HyperlinkOverlays { get; private set; }
+
+        [DataMember(Name = "imagepanOverlays", IsRequired = true)]
+        public IList<ImagepanOverlay> ImagepanOverlays { get; private set; }
 
         [DataMember(Name = "slideshowOverlays", IsRequired = true)]
         public IList<SlideshowOverlay> SlideshowOverlays { get; private set; }

@@ -5,7 +5,7 @@
     <WindowsUser>Kurtis</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>E8440ED85D9620AD629551C2DD906AA385BC28223C5778D8B4279072FD62175A</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>41E8D21B48431C8B9931FE2460F6A21901D6382742DFDC6138F7A8CE2F3C5284</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ea3d49fb-5970-4621-b351-0a3365fbdf41_1.0.0.0_neutral__axmatxpqyc4c4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ea3d49fb-5970-4621-b351-0a3365fbdf41_axmatxpqyc4c4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ea3d49fb-5970-4621-b351-0a3365fbdf41</RegisteredPackageID>
@@ -16,17 +16,65 @@
     <AppXManifest Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-07T23:56:48.732</Modified>
+      <Modified>2012-09-10T18:40:24.982</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParserComponent\bin\Debug\FolioParserComponent.winmd">
       <PackagePath>FolioParserComponent.winmd</PackagePath>
-      <Modified>2012-09-07T23:56:47.917</Modified>
+      <Modified>2012-09-10T18:40:23.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParserComponent\bin\Debug\FolioParserComponent.pdb">
       <PackagePath>FolioParserComponent.pdb</PackagePath>
-      <Modified>2012-09-07T23:56:47.891</Modified>
+      <Modified>2012-09-10T18:40:23.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\00_0000_NavTo.Folio.xml">
+      <PackagePath>00_0000_NavTo.Folio.xml</PackagePath>
+      <Modified>2012-09-05T16:29:43.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\01_5150_LU0912_sspy04.Folio.xml">
+      <PackagePath>01_5150_LU0912_sspy04.Folio.xml</PackagePath>
+      <Modified>2012-09-05T16:29:43.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\02_5800_AL0712_Profile_Folder.Folio.xml">
+      <PackagePath>02_5800_AL0712_Profile_Folder.Folio.xml</PackagePath>
+      <Modified>2012-09-05T16:29:44.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\03_4400_GQ0812_Norway.Folio.xml">
+      <PackagePath>03_4400_GQ0812_Norway.Folio.xml</PackagePath>
+      <Modified>2012-09-05T16:29:44.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\04_2050_VO0311_Diary.Folio.xml">
+      <PackagePath>04_2050_VO0311_Diary.Folio.xml</PackagePath>
+      <Modified>2012-09-05T16:29:44.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\05_1500_SE0712_MOBstyTreySongz.Folio.xml">
+      <PackagePath>05_1500_SE0712_MOBstyTreySongz.Folio.xml</PackagePath>
+      <Modified>2012-09-05T16:29:44.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\06_3000_TIES_BOWTIE44.Folio.xml">
+      <PackagePath>06_3000_TIES_BOWTIE44.Folio.xml</PackagePath>
+      <Modified>2012-09-05T16:29:44.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\09_2100_VO0311_Photo1.Folio.xml">
+      <PackagePath>09_2100_VO0311_Photo1.Folio.xml</PackagePath>
+      <Modified>2012-09-05T16:29:44.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\10_1300_GQ0612_MRebel.Folio.xml">
+      <PackagePath>10_1300_GQ0612_MRebel.Folio.xml</PackagePath>
+      <Modified>2012-09-05T16:29:44.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\11_2500_BA0812_Foodist.Folio.xml">
+      <PackagePath>11_2500_BA0812_Foodist.Folio.xml</PackagePath>
+      <Modified>2012-09-05T16:29:44.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\ArticleFolio.xml">
+      <PackagePath>ArticleFolio.xml</PackagePath>
+      <Modified>2012-09-07T20:27:26.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\IssueFolio.xml">
+      <PackagePath>IssueFolio.xml</PackagePath>
+      <Modified>2012-09-05T20:54:33.586</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\css\default.css">
       <PackagePath>css\default.css</PackagePath>
@@ -43,14 +91,6 @@
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\pages\groupedItems\groupedItems.css">
       <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
       <Modified>2012-09-05T16:40:15.424</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\ArticleFolio.xml">
-      <PackagePath>ArticleFolio.xml</PackagePath>
-      <Modified>2012-09-07T20:27:26.613</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\IssueFolio.xml">
-      <PackagePath>IssueFolio.xml</PackagePath>
-      <Modified>2012-09-05T20:54:33.586</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -78,7 +118,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-09-05T23:33:27.952</Modified>
+      <Modified>2012-09-10T16:23:29.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
@@ -114,7 +154,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-09-06T23:34:34.427</Modified>
+      <Modified>2012-09-10T17:46:30.010</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

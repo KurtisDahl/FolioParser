@@ -1,0 +1,209 @@
+<folio version="1.7.0" lastUpdated="2012-08-22T23:15:57Z" id="11_2500_BA0812_Foodist" orientation="always">
+	<metadata>
+		<description>Canned Description</description>
+		<magazineTitle>Canned Magazine Title</magazineTitle>
+		<folioNumber>12345</folioNumber>
+	</metadata>
+	<targetDimensions>
+		<targetDimension wideDimension="1024" narrowDimension="768">
+		</targetDimension>
+	</targetDimensions>
+	<contentStacks>
+		<contentStack lastUpdated="2012-08-22T23:15:57Z" id="11_2500_BA0812_Foodist" smoothScrolling="never" layout="vertical" subfolio="11_2500_BA0812_Foodist.folio" alwaysDisplayOverlays="false" orientation="always">
+			<content>
+				<previews>
+					<toc>StackResources/tocPreview.png</toc>
+				</previews>
+				<regions>
+					<region>
+						<portraitBounds>
+							<rectangle x="0" y="0" width="768" height="1024"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="0" y="0" width="1024" height="768"></rectangle>
+						</landscapeBounds>
+						<metadata lastUpdated="2012-08-22T23:15:52Z">
+							<title>The Foodist</title>
+							<description>Andrew Knowlton navigates farmers&apos; market madness.</description>
+							<kicker>Starters</kicker>
+							<isAdvertisement>false</isAdvertisement>
+							<hasAudio>false</hasAudio>
+							<hasVideo>false</hasVideo>
+							<hasSlideshow>false</hasSlideshow>
+						</metadata>
+					</region>
+				</regions>
+				<assets>
+					<asset landscape="false">
+						<assetRendition type="raster" source="StackResources/asset_P1.png" includesOverlays="false" width="768" height="1024" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_P1.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_P1.png" includesOverlays="true" width="125" height="166" role="scrubber"/>
+					</asset>
+					<asset landscape="true">
+						<assetRendition type="raster" source="StackResources/asset_L1.png" includesOverlays="false" width="1024" height="768" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_L1.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_L1.png" includesOverlays="true" width="221" height="166" role="scrubber"/>
+					</asset>
+				</assets>
+				<overlays>
+					<overlay id="@andrewoknowlton_1356_P" type="hyperlink" lastUpdated="2012-08-22T23:15:54Z">
+						<portraitBounds>
+							<rectangle x="566" y="322" width="142" height="12"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://twitter.com/andrewoknowlton</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="@andrewoknowlton_1325_L" type="hyperlink" lastUpdated="2012-08-22T23:15:57Z">
+						<landscapeBounds>
+							<rectangle x="795" y="279" width="142" height="12"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://twitter.com/andrewoknowlton</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="rectangle_1359_P" type="webview" lastUpdated="2012-08-22T23:15:57Z">
+						<portraitBounds>
+							<rectangle x="565" y="345" width="142" height="165"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="794" y="302" width="144" height="141"></rectangle>
+						</landscapeBounds>
+						<data>
+							<webViewUrl>http://www.bonappetit.com/sandbox/twitter_andrewoknowlton.html</webViewUrl>
+							<useTransparentBackground>true</useTransparentBackground>
+							<userInteractionEnabled>true</userInteractionEnabled>
+							<scaleContentToFit>false</scaleContentToFit>
+							<autoStart>true</autoStart>
+							<autoStartDelay>0.0000</autoStartDelay>
+						</data>
+					</overlay>
+					<overlay id="rectangle_1360_P" type="hyperlink" lastUpdated="2012-08-22T23:15:54Z">
+						<portraitBounds>
+							<rectangle x="566" y="580" width="140" height="96"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>mailto:foodist@bonappetit.com?subject=Hey Foodist</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>false</openInApp>
+						</data>
+					</overlay>
+					<overlay id="rectangle_1329_L" type="hyperlink" lastUpdated="2012-08-22T23:15:57Z">
+						<landscapeBounds>
+							<rectangle x="796" y="471" width="140" height="110"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>mailto:foodist@bonappetit.com?subject=Hey Foodist</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>false</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Button 18_1361_P" type="hyperlink" lastUpdated="2012-08-22T23:15:54Z">
+						<portraitBounds>
+							<rectangle x="61" y="862" width="86" height="25"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://glutenfreehouston.com/online-shop/little-soya-gluten-free-soy-sauce/</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Button 17_1352_L" type="hyperlink" lastUpdated="2012-08-22T23:15:57Z">
+						<landscapeBounds>
+							<rectangle x="121" y="590" width="90" height="25"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://glutenfreehouston.com/online-shop/little-soya-gluten-free-soy-sauce/</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="index 8_1365_P" type="hyperlink" lastUpdated="2012-08-22T23:15:54Z">
+						<portraitBounds>
+							<rectangle x="611" y="37" width="120" height="46"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>navto://0100_BA0812_Index</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="index 9_1356_L" type="hyperlink" lastUpdated="2012-08-22T23:15:57Z">
+						<landscapeBounds>
+							<rectangle x="863" y="37" width="120" height="46"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>navto://0100_BA0812_Index</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="FB share_1508_P" type="hyperlink" lastUpdated="2012-08-22T23:15:54Z">
+						<portraitBounds>
+							<rectangle x="600" y="774" width="74" height="62"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://www.facebook.com/share.php?u=http%3A//bonap.it/NGIihA</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Email share_1505_L" type="hyperlink" lastUpdated="2012-08-22T23:15:57Z">
+						<landscapeBounds>
+							<rectangle x="888" y="640" width="49" height="48"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>mailto:?subject=Thought you might like this article from Bon Appétit&amp;body=Andrew Knowlton navigates farmers’ market madness. http://bonapp.it/QY5fuv&lt;br/&gt;&lt;a href=&apos;http://www.bonappetit.com/app&apos;&gt;&lt;img src=&apos;http://subscribe.condenet.com/images_covers/defaultemailfooter_bonappetit_p500.png&apos;/&gt;&lt;/a&gt;</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>false</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Twitter share_1512_P" type="hyperlink" lastUpdated="2012-08-22T23:15:54Z">
+						<portraitBounds>
+							<rectangle x="600" y="836" width="74" height="57"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>http://twitter.com/share?text=Andrew+Knowlton+navigates+farmers%E2%80%99+market+madness.+-&amp;url=http://bonapp.it/QY5fuv&amp;counturl=http://bonapp.it/QY5fuv</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Twitter share_1500_L" type="hyperlink" lastUpdated="2012-08-22T23:15:57Z">
+						<landscapeBounds>
+							<rectangle x="840" y="640" width="49" height="48"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://twitter.com/share?text=Andrew+Knowlton+navigates+farmers%E2%80%99+market+madness.+-&amp;url=http://bonapp.it/QY5fuv&amp;counturl=http://bonapp.it/QY5fuv</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="Email share_1517_P" type="hyperlink" lastUpdated="2012-08-22T23:15:54Z">
+						<portraitBounds>
+							<rectangle x="600" y="893" width="74" height="62"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>mailto:?subject=Thought you might like this article from Bon Appétit&amp;body=Andrew Knowlton navigates farmers’ market madness. http://bonapp.it/QY5fuv&lt;br/&gt;&lt;a href=&apos;http://www.bonappetit.com/app&apos;&gt;&lt;img src=&apos;http://subscribe.condenet.com/images_covers/defaultemailfooter_bonappetit_p500.png&apos;/&gt;&lt;/a&gt;</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>false</openInApp>
+						</data>
+					</overlay>
+					<overlay id="FB share_1496_L" type="hyperlink" lastUpdated="2012-08-22T23:15:57Z">
+						<landscapeBounds>
+							<rectangle x="794" y="640" width="49" height="48"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>http://www.facebook.com/share.php?u=http%3A//bonap.it/NGIihA</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+				</overlays>
+			</content>
+		</contentStack>
+	</contentStacks>
+</folio>

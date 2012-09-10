@@ -19,6 +19,42 @@
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParserComponent\bin\Debug\FolioParserComponent.pdb">
       <PackagePath>FolioParserComponent.pdb</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\00_0000_NavTo.Folio.xml">
+      <PackagePath>00_0000_NavTo.Folio.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\01_5150_LU0912_sspy04.Folio.xml">
+      <PackagePath>01_5150_LU0912_sspy04.Folio.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\02_5800_AL0712_Profile_Folder.Folio.xml">
+      <PackagePath>02_5800_AL0712_Profile_Folder.Folio.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\03_4400_GQ0812_Norway.Folio.xml">
+      <PackagePath>03_4400_GQ0812_Norway.Folio.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\04_2050_VO0311_Diary.Folio.xml">
+      <PackagePath>04_2050_VO0311_Diary.Folio.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\05_1500_SE0712_MOBstyTreySongz.Folio.xml">
+      <PackagePath>05_1500_SE0712_MOBstyTreySongz.Folio.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\06_3000_TIES_BOWTIE44.Folio.xml">
+      <PackagePath>06_3000_TIES_BOWTIE44.Folio.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\09_2100_VO0311_Photo1.Folio.xml">
+      <PackagePath>09_2100_VO0311_Photo1.Folio.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\10_1300_GQ0612_MRebel.Folio.xml">
+      <PackagePath>10_1300_GQ0612_MRebel.Folio.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\11_2500_BA0812_Foodist.Folio.xml">
+      <PackagePath>11_2500_BA0812_Foodist.Folio.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\ArticleFolio.xml">
+      <PackagePath>ArticleFolio.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\IssueFolio.xml">
+      <PackagePath>IssueFolio.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
@@ -30,12 +66,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\pages\groupedItems\groupedItems.css">
       <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\ArticleFolio.xml">
-      <PackagePath>ArticleFolio.xml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\IssueFolio.xml">
-      <PackagePath>IssueFolio.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>

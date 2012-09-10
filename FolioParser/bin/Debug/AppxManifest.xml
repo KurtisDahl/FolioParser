@@ -38,17 +38,18 @@
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>CLRHost.dll</Path>
-        <ActivatableClass ActivatableClassId="FolioParserComponent.OverlayButton" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="FolioParserComponent.Article" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="FolioParserComponent.WebviewOverlay" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="FolioParserComponent.OverlayAsset" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="FolioParserComponent.VideoOverlay" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="FolioParserComponent.Parser" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="FolioParserComponent.SlideshowOverlay" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="FolioParserComponent.Issue" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="FolioParserComponent.HyperlinkOverlay" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="FolioParserComponent.Page" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FolioParserComponent.WebviewOverlay" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FolioParserComponent.HyperlinkOverlay" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FolioParserComponent.Parser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FolioParserComponent.OverlayAsset" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="FolioParserComponent.AudioOverlay" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FolioParserComponent.SlideshowOverlay" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FolioParserComponent.Article" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FolioParserComponent.Issue" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FolioParserComponent.OverlayButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FolioParserComponent.ImagepanOverlay" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>

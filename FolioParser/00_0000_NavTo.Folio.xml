@@ -1,0 +1,231 @@
+<folio version="1.7.0" lastUpdated="2012-08-22T23:15:17Z" id="00_0000_NavTo" orientation="always">
+	<metadata>
+		<description>Canned Description</description>
+		<magazineTitle>Canned Magazine Title</magazineTitle>
+		<folioNumber>12345</folioNumber>
+	</metadata>
+	<targetDimensions>
+		<targetDimension wideDimension="1024" narrowDimension="768">
+		</targetDimension>
+	</targetDimensions>
+	<contentStacks>
+		<contentStack lastUpdated="2012-08-22T23:15:17Z" id="00_0000_NavTo" smoothScrolling="always" layout="vertical" subfolio="00_0000_NavTo.folio" alwaysDisplayOverlays="false" orientation="always">
+			<content>
+				<previews>
+					<toc>StackResources/toc.png</toc>
+				</previews>
+				<regions>
+					<region>
+						<portraitBounds>
+							<rectangle x="0" y="0" width="768" height="1024"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="0" y="0" width="1024" height="768"></rectangle>
+						</landscapeBounds>
+						<metadata lastUpdated="2012-08-22T23:15:17Z">
+							<tags>Style Spy</tags>
+							<isAdvertisement>false</isAdvertisement>
+							<hasAudio>false</hasAudio>
+							<hasVideo>false</hasVideo>
+							<hasSlideshow>false</hasSlideshow>
+						</metadata>
+					</region>
+				</regions>
+				<assets>
+					<asset landscape="false">
+						<assetRendition type="raster" source="StackResources/asset_P1_0.png" includesOverlays="false" width="768" height="1024" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_P1_0.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_P1.png" includesOverlays="true" width="125" height="166" role="scrubber"/>
+					</asset>
+					<asset landscape="true">
+						<assetRendition type="raster" source="StackResources/asset_L1_0.png" includesOverlays="false" width="1024" height="768" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_L1_0.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_L1.png" includesOverlays="true" width="221" height="166" role="scrubber"/>
+					</asset>
+				</assets>
+				<overlays>
+					<overlay id="HYPERLINKS_230_P" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<portraitBounds>
+							<rectangle x="72" y="72" width="300" height="158"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>navto://01_5150_LU0912_sspy04</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="rectangle_458_L" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<landscapeBounds>
+							<rectangle x="673" y="476" width="279" height="146"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>navto://11_2500_BA0812_Foodist</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="slide show_355_P" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<portraitBounds>
+							<rectangle x="396" y="72" width="300" height="158"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>navto://02_5800_AL0712_Profile_Folder</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="HYPERLINKS_215_L" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<landscapeBounds>
+							<rectangle x="72" y="138" width="279" height="146"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>navto://01_5150_LU0912_sspy04</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="state &amp; buttons_263_P" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<portraitBounds>
+							<rectangle x="72" y="252" width="300" height="158"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>navto://03_4400_GQ0812_Norway</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="slide show_241_L" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<landscapeBounds>
+							<rectangle x="372" y="138" width="279" height="146"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>navto://02_5800_AL0712_Profile_Folder</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="audio_378_P" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<portraitBounds>
+							<rectangle x="396" y="252" width="300" height="158"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>navto://04_2050_VO0311_Diary</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="state &amp; buttons_267_L" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<landscapeBounds>
+							<rectangle x="673" y="138" width="279" height="147"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>navto://03_4400_GQ0812_Norway</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="video_286_P" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<portraitBounds>
+							<rectangle x="72" y="434" width="300" height="158"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>navto://05_1500_SE0712_MOBstyTreySongz</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="audio_293_L" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<landscapeBounds>
+							<rectangle x="72" y="307" width="279" height="147"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>navto://04_2050_VO0311_Diary</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="360 IMAGE SEQUENCE_471_P" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<portraitBounds>
+							<rectangle x="396" y="434" width="300" height="156"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>navto://06_3000_TIES_BOWTIE44</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="video_319_L" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<landscapeBounds>
+							<rectangle x="372" y="307" width="279" height="145"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>navto://05_1500_SE0712_MOBstyTreySongz</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="pan &amp; zoom_309_P" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<portraitBounds>
+							<rectangle x="72" y="616" width="300" height="154"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>navto://09_2100_VO0311_Photo1</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="360 IMAGE SEQUENCE_345_L" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<landscapeBounds>
+							<rectangle x="673" y="307" width="279" height="145"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>navto://06_3000_TIES_BOWTIE44</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="scrollable content_502_P" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<portraitBounds>
+							<rectangle x="396" y="616" width="300" height="156"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>navto://10_1300_GQ0612_MRebel</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="pan &amp; zoom_371_L" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<landscapeBounds>
+							<rectangle x="72" y="477" width="279" height="143"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>navto://09_2100_VO0311_Photo1</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="web view_332_P" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<portraitBounds>
+							<rectangle x="72" y="794" width="300" height="158"></rectangle>
+						</portraitBounds>
+						<data>
+							<url>navto://08_2500_BA0812_Foodist</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+					<overlay id="scrollable content_398_L" type="hyperlink" lastUpdated="2012-08-22T23:15:17Z">
+						<landscapeBounds>
+							<rectangle x="372" y="477" width="279" height="143"></rectangle>
+						</landscapeBounds>
+						<data>
+							<url>navto://10_1300_GQ0612_MRebel</url>
+							<reqNavConfirm>false</reqNavConfirm>
+							<openInApp>true</openInApp>
+						</data>
+					</overlay>
+				</overlays>
+			</content>
+		</contentStack>
+	</contentStacks>
+</folio>

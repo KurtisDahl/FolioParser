@@ -1,0 +1,71 @@
+<folio version="1.7.0" lastUpdated="2012-08-22T21:23:01Z" id="04_2050_VO0311_Diary" orientation="always">
+	<metadata>
+		<description>Canned Description</description>
+		<magazineTitle>Canned Magazine Title</magazineTitle>
+		<folioNumber>12345</folioNumber>
+	</metadata>
+	<targetDimensions>
+		<targetDimension wideDimension="1024" narrowDimension="768">
+		</targetDimension>
+	</targetDimensions>
+	<contentStacks>
+		<contentStack lastUpdated="2012-08-22T21:23:01Z" id="04_2050_VO0311_Diary" smoothScrolling="never" layout="vertical" subfolio="04_2050_VO0311_Diary.folio" alwaysDisplayOverlays="false" orientation="always">
+			<content>
+				<previews>
+					<toc>StackResources/Vogue_70x70_Diary.png</toc>
+				</previews>
+				<regions>
+					<region>
+						<portraitBounds>
+							<rectangle x="0" y="0" width="768" height="1024"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="0" y="0" width="1024" height="768"></rectangle>
+						</landscapeBounds>
+						<metadata lastUpdated="2012-08-22T23:15:34Z">
+							<title>Tour Diary</title>
+							<description>An audio diary of following Lady Gaga on tour from London to Paris, through epic snowstorms and screaming fans</description>
+							<author>Jonathan Van Meter</author>
+							<kicker>Audio Exclusive</kicker>
+							<isAdvertisement>false</isAdvertisement>
+							<hasAudio>true</hasAudio>
+							<hasVideo>false</hasVideo>
+							<hasSlideshow>false</hasSlideshow>
+						</metadata>
+					</region>
+				</regions>
+				<assets>
+					<asset landscape="false">
+						<assetRendition type="raster" source="StackResources/asset_P1.png" includesOverlays="false" width="768" height="1024" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_P1.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_P1.png" includesOverlays="true" width="125" height="166" role="scrubber"/>
+					</asset>
+					<asset landscape="true">
+						<assetRendition type="raster" source="StackResources/asset_L1.png" includesOverlays="false" width="1024" height="768" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_L1.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_L1.png" includesOverlays="true" width="221" height="166" role="scrubber"/>
+					</asset>
+				</assets>
+				<overlays>
+					<overlay id="Audio1" type="audio" lastUpdated="2011-02-14T15:45:10Z">
+						<portraitBounds>
+							<rectangle x="58" y="768" width="48" height="48"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="523" y="50" width="48" height="48"></rectangle>
+						</landscapeBounds>
+						<data>
+							<overlayAsset id="audio_pause" width="48" height="48" landscape="false" tag="pause">OverlayResources/Audio1/audio_pause.png</overlayAsset>
+							<overlayAsset id="audio_play" width="48" height="48" landscape="false" tag="play">OverlayResources/Audio1/audio_play.png</overlayAsset>
+							<overlayAsset id="audio_pause" width="48" height="48" landscape="true" tag="pause">OverlayResources/Audio1/audio_pause.png</overlayAsset>
+							<overlayAsset id="audio_play" width="48" height="48" landscape="true" tag="play">OverlayResources/Audio1/audio_play.png</overlayAsset>
+							<audioUrl>OverlayResources/Audio1/1_Performance2.mp3</audioUrl>
+							<autoStart>false</autoStart>
+							<autoStartDelay>0.0000</autoStartDelay>
+						</data>
+					</overlay>
+				</overlays>
+			</content>
+		</contentStack>
+	</contentStacks>
+</folio>

@@ -1,0 +1,119 @@
+<folio version="1.7.0" lastUpdated="2012-08-22T21:23:25Z" id="03_4400_GQ0812_Norway" orientation="always">
+	<metadata>
+		<description>Canned Description</description>
+		<magazineTitle>Canned Magazine Title</magazineTitle>
+		<folioNumber>12345</folioNumber>
+	</metadata>
+	<targetDimensions>
+		<targetDimension wideDimension="1024" narrowDimension="768">
+		</targetDimension>
+	</targetDimensions>
+	<contentStacks>
+		<contentStack lastUpdated="2012-08-22T21:23:25Z" id="03_4400_GQ0812_Norway" smoothScrolling="never" layout="vertical" subfolio="03_4400_GQ0812_Norway.folio" alwaysDisplayOverlays="false" orientation="always">
+			<content>
+				<previews>
+					<toc>StackResources/tocPreview.png</toc>
+				</previews>
+				<regions>
+					<region>
+						<portraitBounds>
+							<rectangle x="0" y="0" width="768" height="1024"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="0" y="0" width="1024" height="768"></rectangle>
+						</landscapeBounds>
+						<metadata lastUpdated="2012-08-22T23:15:33Z">
+							<title>The Massacre in Norway</title>
+							<description>On an island west of Oslo‚ home to a political youth camp, seventy-seven people were shot and killed by one man</description>
+							<author>SeanFlynn</author>
+							<kicker>Crime</kicker>
+							<isAdvertisement>false</isAdvertisement>
+							<hasAudio>false</hasAudio>
+							<hasVideo>false</hasVideo>
+							<hasSlideshow>true</hasSlideshow>
+						</metadata>
+					</region>
+				</regions>
+				<assets>
+					<asset landscape="false">
+						<assetRendition type="raster" source="StackResources/asset_P1.png" includesOverlays="false" width="768" height="1024" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_P1.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_P1.png" includesOverlays="true" width="125" height="166" role="scrubber"/>
+					</asset>
+					<asset landscape="true">
+						<assetRendition type="raster" source="StackResources/asset_L1.png" includesOverlays="false" width="1024" height="768" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_L1.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_L1.png" includesOverlays="true" width="221" height="166" role="scrubber"/>
+					</asset>
+				</assets>
+				<overlays>
+					<overlay id="GQ0812_Norway_MSO" type="slideshow" lastUpdated="2012-08-22T23:15:34Z">
+						<portraitBounds>
+							<rectangle x="435" y="199" width="288" height="448"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="577" y="208" width="410" height="506"></rectangle>
+						</landscapeBounds>
+						<data>
+							<drawHighlight>false</drawHighlight>
+							<selectedHighlight>0</selectedHighlight>
+							<crossFadeImages>true</crossFadeImages>
+							<crossFadeImagesDelay>0.5000</crossFadeImagesDelay>
+							<defaultSelected>true</defaultSelected>
+							<autoStart>false</autoStart>
+							<autoStartDelay>0.0000</autoStartDelay>
+							<autoTransitionDuration>2.0000</autoTransitionDuration>
+							<loopCount>-1</loopCount>
+							<reverseImageOrder>false</reverseImageOrder>
+							<tapEnabled>false</tapEnabled>
+							<swipeEnabled>false</swipeEnabled>
+							<swipeStop>false</swipeStop>
+							<overlayAsset id="GQ0812_Norway_MSO_1_56757_P" width="278" height="448" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_1_56757_P.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_2_56813_P" width="278" height="448" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_2_56813_P.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_3_56867_P" width="278" height="448" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_3_56867_P.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_4_56920_P" width="278" height="448" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_4_56920_P.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_5_56974_P" width="278" height="448" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_5_56974_P.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_6_57027_P" width="278" height="448" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_6_57027_P.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_7_57088_P" width="278" height="448" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_7_57088_P.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_8_57140_P" width="278" height="448" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_8_57140_P.png</overlayAsset>
+							<overlayAsset id="MSO_1_next_Normal_59252_P" width="70" height="104" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/MSO_1_next_Normal_59252_P.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_1_63353_L" width="390" height="506" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_1_63353_L.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_2_63427_L" width="390" height="506" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_2_63427_L.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_3_63498_L" width="390" height="506" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_3_63498_L.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_4_63570_L" width="390" height="506" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_4_63570_L.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_5_63642_L" width="390" height="506" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_5_63642_L.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_6_63714_L" width="390" height="506" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_6_63714_L.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_7_63785_L" width="390" height="506" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_7_63785_L.png</overlayAsset>
+							<overlayAsset id="GQ0812_Norway_MSO_8_63856_L" width="390" height="506" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/GQ0812_Norway_MSO_8_63856_L.png</overlayAsset>
+							<overlayAsset id="MSO_1_next_Normal_62403_L" width="105" height="126" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-94745309/MSO_1_next_Normal_62403_L.png</overlayAsset>
+							<portraitLayout>
+								<displayBounds>
+									<rectangle x="0" y="0" width="278" height="448"></rectangle>
+								</displayBounds>
+								<buttons>
+									<button targetID="nextSlide" defaultID="MSO_1_next_Normal_59252_P" selectedID="" stopEnabled="false">
+										<bounds>
+											<rectangle x="219" y="267" width="70" height="104"></rectangle>
+										</bounds>
+									</button>
+								</buttons>
+							</portraitLayout>
+							<landscapeLayout>
+								<displayBounds>
+									<rectangle x="0" y="0" width="390" height="506"></rectangle>
+								</displayBounds>
+								<buttons>
+									<button targetID="nextSlide" defaultID="MSO_1_next_Normal_62403_L" selectedID="" stopEnabled="false">
+										<bounds>
+											<rectangle x="305" y="326" width="105" height="126"></rectangle>
+										</bounds>
+									</button>
+								</buttons>
+							</landscapeLayout>
+						</data>
+					</overlay>
+				</overlays>
+			</content>
+		</contentStack>
+	</contentStacks>
+</folio>

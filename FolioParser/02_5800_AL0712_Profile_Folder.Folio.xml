@@ -1,0 +1,163 @@
+<folio version="1.7.0" lastUpdated="2012-08-22T23:15:32Z" id="02_5800_AL0712_Profile_Folder" orientation="always">
+	<metadata>
+		<description>Canned Description</description>
+		<magazineTitle>Canned Magazine Title</magazineTitle>
+		<folioNumber>12345</folioNumber>
+	</metadata>
+	<targetDimensions>
+		<targetDimension wideDimension="1024" narrowDimension="768">
+		</targetDimension>
+	</targetDimensions>
+	<contentStacks>
+		<contentStack lastUpdated="2012-08-22T23:15:32Z" id="02_5800_AL0712_Profile_Folder" smoothScrolling="never" layout="vertical" subfolio="02_5800_AL0712_Profile_Folder.folio" alwaysDisplayOverlays="false" orientation="always">
+			<content>
+				<previews>
+					<toc>StackResources/toc.png</toc>
+				</previews>
+				<regions>
+					<region>
+						<portraitBounds>
+							<rectangle x="0" y="0" width="768" height="1024"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="0" y="0" width="1024" height="768"></rectangle>
+						</landscapeBounds>
+						<metadata lastUpdated="2012-08-22T23:15:23Z">
+							<title>Pursuit of Happiness</title>
+							<description>With two big movies and a wedding on the way, Anne Hathaway is already thinking about her next dream role.</description>
+							<author>Judith Newman</author>
+							<tags>Anne Hathaway, celebrity style, skin-care, beauty products</tags>
+							<isAdvertisement>false</isAdvertisement>
+							<hasAudio>false</hasAudio>
+							<hasVideo>false</hasVideo>
+							<hasSlideshow>true</hasSlideshow>
+						</metadata>
+					</region>
+				</regions>
+				<assets>
+					<asset landscape="false">
+						<assetRendition type="raster" source="StackResources/asset_P1.png" includesOverlays="false" width="768" height="1024" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_P1.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_P1.png" includesOverlays="true" width="125" height="166" role="scrubber"/>
+					</asset>
+					<asset landscape="true">
+						<assetRendition type="raster" source="StackResources/asset_L1.png" includesOverlays="false" width="1024" height="768" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_L1.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_L1.png" includesOverlays="true" width="221" height="166" role="scrubber"/>
+					</asset>
+				</assets>
+				<overlays>
+					<overlay id="Profile_MSO" type="slideshow" lastUpdated="2012-08-22T23:15:32Z">
+						<portraitBounds>
+							<rectangle x="396" y="24" width="324" height="469"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="589" y="0" width="324" height="464"></rectangle>
+						</landscapeBounds>
+						<data>
+							<drawHighlight>false</drawHighlight>
+							<selectedHighlight>0</selectedHighlight>
+							<crossFadeImages>true</crossFadeImages>
+							<crossFadeImagesDelay>0.5000</crossFadeImagesDelay>
+							<defaultSelected>true</defaultSelected>
+							<autoStart>false</autoStart>
+							<autoStartDelay>0.0000</autoStartDelay>
+							<autoTransitionDuration>2.0000</autoTransitionDuration>
+							<loopCount>-1</loopCount>
+							<reverseImageOrder>false</reverseImageOrder>
+							<tapEnabled>false</tapEnabled>
+							<swipeEnabled>false</swipeEnabled>
+							<swipeStop>false</swipeStop>
+							<overlayAsset id="Profile_MSO_State 1_3928_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 1_3928_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 2_3924_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 2_3924_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 3_3885_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 3_3885_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 4_3852_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 4_3852_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 5_3816_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 5_3816_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 6_3783_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 6_3783_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 7_3575_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 7_3575_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 8_3742_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 8_3742_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 9_3710_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 9_3710_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 10_3677_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 10_3677_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 11_3644_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 11_3644_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 12_3610_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 12_3610_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 13_3541_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 13_3541_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 14_3504_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 14_3504_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 15_3470_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 15_3470_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 16_3435_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 16_3435_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 17_3397_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 17_3397_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 18_3362_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 18_3362_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 19_3329_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 19_3329_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 20_3297_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 20_3297_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 21_3264_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 21_3264_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 22_3229_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 22_3229_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 23_3187_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 23_3187_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 24_3131_P" width="324" height="461" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 24_3131_P.png</overlayAsset>
+							<overlayAsset id="BUTTON_Left_Normal_4990_P" width="71" height="44" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/BUTTON_Left_Normal_4990_P.png</overlayAsset>
+							<overlayAsset id="BUTTON_Right_Normal_4993_P" width="63" height="49" landscape="false">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/BUTTON_Right_Normal_4993_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 1_799_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 1_3928_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 2_853_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 2_3924_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 3_908_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 3_3885_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 4_963_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 4_3852_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 5_1017_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 5_3816_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 6_1072_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 6_3783_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 7_1128_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 7_3575_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 8_1182_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 8_3742_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 9_1236_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 9_3710_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 10_1291_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 10_3677_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 11_1346_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 11_3644_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 12_1400_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 12_3610_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 13_1453_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 13_3541_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 14_1506_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 14_3504_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 15_1561_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 15_3470_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 16_1616_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 16_3435_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 17_1670_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 17_3397_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 18_1723_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 18_3362_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 19_1776_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 19_3329_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 20_1832_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 20_3297_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 21_1890_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 21_3264_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 22_1948_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 22_3229_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 23_2002_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 23_3187_P.png</overlayAsset>
+							<overlayAsset id="Profile_MSO_State 24_2056_L" width="324" height="461" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/Profile_MSO_State 24_3131_P.png</overlayAsset>
+							<overlayAsset id="BUTTON_Left_Normal_3362_L" width="70" height="46" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/BUTTON_Left_Normal_3362_L.png</overlayAsset>
+							<overlayAsset id="BUTTON_Right_Normal_3368_L" width="68" height="46" landscape="true">OverlayResources/InDesign_BNDLR_RSRC9766-104199246/BUTTON_Right_Normal_3368_L.png</overlayAsset>
+							<portraitLayout>
+								<displayBounds>
+									<rectangle x="0" y="0" width="324" height="461"></rectangle>
+								</displayBounds>
+								<buttons>
+									<button targetID="previousSlide" defaultID="BUTTON_Left_Normal_4990_P" selectedID="" stopEnabled="false">
+										<bounds>
+											<rectangle x="62" y="420" width="71" height="44"></rectangle>
+										</bounds>
+									</button>
+									<button targetID="nextSlide" defaultID="BUTTON_Right_Normal_4993_P" selectedID="" stopEnabled="false">
+										<bounds>
+											<rectangle x="202" y="420" width="63" height="49"></rectangle>
+										</bounds>
+									</button>
+								</buttons>
+							</portraitLayout>
+							<landscapeLayout>
+								<displayBounds>
+									<rectangle x="0" y="0" width="324" height="461"></rectangle>
+								</displayBounds>
+								<buttons>
+									<button targetID="previousSlide" defaultID="BUTTON_Left_Normal_3362_L" selectedID="" stopEnabled="false">
+										<bounds>
+											<rectangle x="65" y="418" width="70" height="46"></rectangle>
+										</bounds>
+									</button>
+									<button targetID="nextSlide" defaultID="BUTTON_Right_Normal_3368_L" selectedID="" stopEnabled="false">
+										<bounds>
+											<rectangle x="199" y="418" width="68" height="46"></rectangle>
+										</bounds>
+									</button>
+								</buttons>
+							</landscapeLayout>
+						</data>
+					</overlay>
+				</overlays>
+			</content>
+		</contentStack>
+	</contentStacks>
+</folio>

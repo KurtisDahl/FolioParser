@@ -1,0 +1,253 @@
+<folio version="1.7.0" lastUpdated="2012-08-22T23:15:42Z" id="06_3000_TIES_BOWTIE44" orientation="always">
+	<metadata>
+		<description>Canned Description</description>
+		<magazineTitle>Canned Magazine Title</magazineTitle>
+		<folioNumber>12345</folioNumber>
+	</metadata>
+	<targetDimensions>
+		<targetDimension wideDimension="1024" narrowDimension="768">
+		</targetDimension>
+	</targetDimensions>
+	<contentStacks>
+		<contentStack lastUpdated="2012-08-22T23:15:42Z" id="06_3000_TIES_BOWTIE44" smoothScrolling="portrait" layout="vertical" subfolio="06_3000_TIES_BOWTIE44.folio" alwaysDisplayOverlays="false" orientation="always">
+			<content>
+				<previews>
+				</previews>
+				<regions>
+					<region>
+						<portraitBounds>
+							<rectangle x="0" y="0" width="768" height="1306"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="0" y="0" width="1024" height="768"></rectangle>
+						</landscapeBounds>
+						<metadata lastUpdated="2012-08-22T23:15:41Z">
+							<title>Hey Ya! Rock a Bow Tie</title>
+							<kicker>Ties</kicker>
+							<isAdvertisement>true</isAdvertisement>
+							<hasAudio>false</hasAudio>
+							<hasVideo>false</hasVideo>
+							<hasSlideshow>true</hasSlideshow>
+						</metadata>
+					</region>
+				</regions>
+				<assets>
+					<asset landscape="false">
+						<assetRendition type="raster" source="StackResources/asset_P1_0.png" includesOverlays="false" width="768" height="1024" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_P1_0.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_P1.png" includesOverlays="true" width="125" height="166" role="scrubber"/>
+					</asset>
+					<asset landscape="false">
+						<assetRendition type="raster" source="StackResources/asset_P1_1.png" includesOverlays="false" width="768" height="282" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_P1_1.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+					</asset>
+					<asset landscape="true">
+						<assetRendition type="raster" source="StackResources/asset_L1.png" includesOverlays="false" width="1024" height="768" role="content"/>
+						<assetRendition type="raster" source="StackResources/thumb_L1.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+						<assetRendition type="raster" source="StackResources/scrubber_L1.png" includesOverlays="true" width="221" height="166" role="scrubber"/>
+					</asset>
+				</assets>
+				<overlays>
+					<overlay id="0611-GQ-A103.jpg_21157_P" type="360" lastUpdated="2012-08-22T23:15:42Z">
+						<portraitBounds>
+							<rectangle x="48" y="148" width="666" height="666"></rectangle>
+						</portraitBounds>
+						<landscapeBounds>
+							<rectangle x="50" y="150" width="558" height="558"></rectangle>
+						</landscapeBounds>
+						<data clockwise="true">
+							<loopCount>1</loopCount>
+							<autoStart>false</autoStart>
+							<autoStartDelay>0.0000</autoStartDelay>
+							<tapEnabled>true</tapEnabled>
+							<swipeEnabled>true</swipeEnabled>
+							<circularViewEnabled>false</circularViewEnabled>
+							<framesPerSecond>16.0000</framesPerSecond>
+							<overlayAsset id="0611-GQ-A103" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A103.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A104" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A104.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A105" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A105.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A106" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A106.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A107" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A107.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A108" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A108.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A109" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A109.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A110" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A110.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A111" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A111.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A112" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A112.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A113" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A113.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A114" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A114.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A115" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A115.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A116" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A116.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A117" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A117.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A118" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A118.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A119" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A119.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A120" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A120.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A121" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A121.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A122" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A122.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A123" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A123.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A124" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A124.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A125" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A125.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A126" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A126.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A127" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A127.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A128" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A128.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A129" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A129.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A130" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A130.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A131" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A131.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A132" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A132.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A133" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A133.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A134" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A134.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A135" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A135.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A136" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A136.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A137" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A137.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A138" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A138.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A139" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A139.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A140" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A140.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A141" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A141.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A142" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A142.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A143" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A143.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A144" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A144.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A145" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A145.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A146" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A146.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A147" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A147.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A148" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A148.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A149" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A149.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A150" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A150.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A151" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A151.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A152" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A152.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A153" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A153.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A154" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A154.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A155" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A155.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A156" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A156.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A157" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A157.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A158" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A158.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A159" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A159.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A160" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A160.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A161" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A161.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A162" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A162.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A163" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A163.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A164" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A164.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A165" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A165.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A166" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A166.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A167" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A167.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A168" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A168.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A169" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A169.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A170" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A170.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A171" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A171.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A172" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A172.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A173" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A173.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A174" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A174.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A175" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A175.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A176" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A176.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A177" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A177.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A178" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A178.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A179" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A179.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A180" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A180.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A181" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A181.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A182" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A182.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A183" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A183.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A184" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A184.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A185" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A185.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A186" width="768" height="768" landscape="false">OverlayResources/BOWTIE/0611-GQ-A186.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A103" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A103.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A104" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A104.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A105" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A105.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A106" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A106.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A107" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A107.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A108" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A108.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A109" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A109.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A110" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A110.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A111" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A111.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A112" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A112.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A113" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A113.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A114" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A114.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A115" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A115.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A116" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A116.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A117" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A117.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A118" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A118.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A119" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A119.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A120" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A120.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A121" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A121.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A122" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A122.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A123" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A123.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A124" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A124.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A125" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A125.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A126" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A126.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A127" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A127.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A128" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A128.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A129" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A129.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A130" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A130.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A131" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A131.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A132" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A132.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A133" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A133.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A134" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A134.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A135" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A135.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A136" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A136.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A137" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A137.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A138" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A138.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A139" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A139.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A140" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A140.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A141" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A141.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A142" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A142.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A143" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A143.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A144" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A144.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A145" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A145.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A146" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A146.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A147" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A147.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A148" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A148.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A149" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A149.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A150" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A150.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A151" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A151.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A152" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A152.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A153" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A153.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A154" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A154.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A155" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A155.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A156" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A156.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A157" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A157.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A158" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A158.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A159" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A159.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A160" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A160.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A161" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A161.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A162" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A162.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A163" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A163.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A164" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A164.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A165" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A165.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A166" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A166.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A167" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A167.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A168" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A168.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A169" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A169.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A170" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A170.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A171" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A171.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A172" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A172.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A173" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A173.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A174" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A174.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A175" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A175.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A176" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A176.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A177" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A177.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A178" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A178.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A179" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A179.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A180" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A180.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A181" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A181.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A182" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A182.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A183" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A183.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A184" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A184.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A185" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A185.jpg</overlayAsset>
+							<overlayAsset id="0611-GQ-A186" width="768" height="768" landscape="true">OverlayResources/BOWTIE/0611-GQ-A186.jpg</overlayAsset>
+						</data>
+					</overlay>
+					<overlay id="Scrollable_11456_L" type="webview" lastUpdated="2012-08-22T23:15:42Z">
+						<landscapeBounds>
+							<rectangle x="757" y="318" width="212" height="318"></rectangle>
+						</landscapeBounds>
+						<data>
+							<webViewUrl>OverlayResources/InDesign_BNDLR_RSRC9766-85651905/Scrollable_11456_L.html</webViewUrl>
+							<useTransparentBackground>true</useTransparentBackground>
+							<userInteractionEnabled>true</userInteractionEnabled>
+							<scaleContentToFit>false</scaleContentToFit>
+							<autoStart>true</autoStart>
+							<autoStartDelay>0.0000</autoStartDelay>
+						</data>
+					</overlay>
+				</overlays>
+			</content>
+		</contentStack>
+	</contentStacks>
+</folio>

@@ -53,6 +53,16 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="00_0000_NavTo.Folio.xml" />
+    <Content Include="01_5150_LU0912_sspy04.Folio.xml" />
+    <Content Include="02_5800_AL0712_Profile_Folder.Folio.xml" />
+    <Content Include="03_4400_GQ0812_Norway.Folio.xml" />
+    <Content Include="04_2050_VO0311_Diary.Folio.xml" />
+    <Content Include="05_1500_SE0712_MOBstyTreySongz.Folio.xml" />
+    <Content Include="06_3000_TIES_BOWTIE44.Folio.xml" />
+    <Content Include="09_2100_VO0311_Photo1.Folio.xml" />
+    <Content Include="10_1300_GQ0612_MRebel.Folio.xml" />
+    <Content Include="11_2500_BA0812_Foodist.Folio.xml" />
     <Content Include="css\default.css" />
     <Content Include="ArticleFolio.xml">
       <SubType>Designer</SubType>
