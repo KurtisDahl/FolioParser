@@ -10,6 +10,23 @@ namespace FolioParserComponent
     [DataContract]
     public sealed class AudioOverlay
     {
+        public AudioOverlay()
+        {
+        }
+
+        public AudioOverlay(AudioOverlay ao)
+        {
+            this.AudioUrl = ao.AudioUrl;
+            this.AutoStart = ao.AutoStart;
+            this.AutoStartDelay = ao.AutoStartDelay;
+            this.Height = ao.Height;
+            this.Id = ao.Id;
+            this.Orientation = ao.Orientation;
+            this.Width = ao.Width;
+            this.X = ao.X;
+            this.Y = ao.Y;
+        }
+
         [DataMember(Name = "id", IsRequired = true)]
         public string Id { get; set; }
 

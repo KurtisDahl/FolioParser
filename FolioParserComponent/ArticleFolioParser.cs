@@ -134,7 +134,7 @@ namespace FolioParserComponent
                             break;
                         case "scrubber":
                             page.PortraitScrubberUrl = reader.GetAttribute("source");
-                            page.PortraitContentWidth = Convert.ToDouble(reader.GetAttribute("width"));
+                            page.PortraitScrubberWidth = Convert.ToDouble(reader.GetAttribute("width"));
                             page.PortraitScrubberHeight = Convert.ToDouble(reader.GetAttribute("height"));
                             break;
                         default:
@@ -175,7 +175,7 @@ namespace FolioParserComponent
                             break;
                         case "scrubber":
                             page.LandscapeScrubberUrl = reader.GetAttribute("source");
-                            page.LandscapeContentWidth = Convert.ToDouble(reader.GetAttribute("width"));
+                            page.LandscapeScrubberWidth = Convert.ToDouble(reader.GetAttribute("width"));
                             page.LandscapeScrubberHeight = Convert.ToDouble(reader.GetAttribute("height"));
                             break;
                         default:
@@ -210,31 +210,34 @@ namespace FolioParserComponent
 
                 while (reader.Read())
                 {
-                    if (reader.Name == "portraitBounds" && reader.NodeType != XmlNodeType.EndElement)
-                    {
-                        if (reader.ReadToFollowing("rectangle"))
-                        {
-                            portraitX = Convert.ToDouble(reader.GetAttribute("x"));
-                            portraitY = Convert.ToDouble(reader.GetAttribute("y"));
-                            portraitWidth = Convert.ToDouble(reader.GetAttribute("width"));
-                            portraitHeight = Convert.ToDouble(reader.GetAttribute("height"));
-                            portraitTuple = calculatePortraitPage(portraitY, article.Pages);
-                        }
-                    }
-                    else if (reader.Name == "landscapeBounds" && reader.NodeType != XmlNodeType.EndElement)
-                    {
-                        if (reader.ReadToFollowing("rectangle"))
-                        {
-                            landscapeX = Convert.ToDouble(reader.GetAttribute("x"));
-                            landscapeY = Convert.ToDouble(reader.GetAttribute("y"));
-                            landscapeWidth = Convert.ToDouble(reader.GetAttribute("width"));
-                            landscapeHeight = Convert.ToDouble(reader.GetAttribute("height"));
-                            landscapeTuple = calculateLandscapePage(landscapeY, article.Pages);
-                        }
-                    }
-                    else if (reader.Name == "data")
+                    if (reader.Name == "data")
                     {
                         break;
+                    }
+                    else if (reader.NodeType != XmlNodeType.EndElement)
+                    {
+                        if (reader.Name == "portraitBounds")
+                        {
+                            if (reader.ReadToFollowing("rectangle"))
+                            {
+                                portraitX = Convert.ToDouble(reader.GetAttribute("x"));
+                                portraitY = Convert.ToDouble(reader.GetAttribute("y"));
+                                portraitWidth = Convert.ToDouble(reader.GetAttribute("width"));
+                                portraitHeight = Convert.ToDouble(reader.GetAttribute("height"));
+                                portraitTuple = calculatePortraitPage(portraitY, article.Pages);
+                            }
+                        }
+                        else if (reader.Name == "landscapeBounds")
+                        {
+                            if (reader.ReadToFollowing("rectangle"))
+                            {
+                                landscapeX = Convert.ToDouble(reader.GetAttribute("x"));
+                                landscapeY = Convert.ToDouble(reader.GetAttribute("y"));
+                                landscapeWidth = Convert.ToDouble(reader.GetAttribute("width"));
+                                landscapeHeight = Convert.ToDouble(reader.GetAttribute("height"));
+                                landscapeTuple = calculateLandscapePage(landscapeY, article.Pages);
+                            }
+                        }
                     }
                 }
 
@@ -242,8 +245,8 @@ namespace FolioParserComponent
                 {
                     case "audio":
                         AudioOverlay ao = parseAudioOverlay(reader);
-                        AudioOverlay portraitAO = ao;
-                        AudioOverlay landscapeAO = ao;
+                        AudioOverlay portraitAO = new AudioOverlay(ao);
+                        AudioOverlay landscapeAO = new AudioOverlay(ao);
 
                         if (portraitTuple.Item1 != -1)
                         {
@@ -268,8 +271,8 @@ namespace FolioParserComponent
                         break;
                     case "hyperlink":
                         HyperlinkOverlay ho = parseHyperlinkOverlay(reader);
-                        HyperlinkOverlay portraitHO = ho;
-                        HyperlinkOverlay landscapeHO = ho;
+                        HyperlinkOverlay portraitHO = new HyperlinkOverlay(ho);
+                        HyperlinkOverlay landscapeHO = new HyperlinkOverlay(ho);
                         if (portraitTuple.Item1 != -1)
                         {
                             portraitHO.Id = id + "_P";
@@ -369,11 +372,11 @@ namespace FolioParserComponent
                     case "slideshow":
                         // shared slideshow overlay attributes
                         SlideshowOverlay so = parseSlideShowOverlay(reader);
-                        SlideshowOverlay portraitSO = so;
-                        SlideshowOverlay landscapeSO = so;
+                        SlideshowOverlay portraitSO = new SlideshowOverlay(so);
+                        SlideshowOverlay landscapeSO = new SlideshowOverlay(so);
                         
-                        while (reader.Read())
-                        {
+                        
+                        do{
                             if (reader.Name == "portraitLayout" || reader.Name == "landscapeLayout")
                             {
                                 break;
@@ -389,7 +392,7 @@ namespace FolioParserComponent
                                     landscapeSO.OverlayAssets.Add(parseOverlayAsset(reader));
                                 }
                             }
-                        }
+                        }while (reader.Read());
 
                         if (portraitTuple.Item1 != -1)
                         {
@@ -447,8 +450,8 @@ namespace FolioParserComponent
                         break;
                     case "webview":
                         WebviewOverlay wo = parseWebViewOverlay(reader);
-                        WebviewOverlay portraitWO = wo;
-                        WebviewOverlay landscapeWO = wo;
+                        WebviewOverlay portraitWO = new WebviewOverlay(wo);
+                        WebviewOverlay landscapeWO = new WebviewOverlay(wo);
                         if (portraitTuple.Item1 != -1)
                         {
                             portraitWO.Id = id + "_P";
@@ -472,8 +475,8 @@ namespace FolioParserComponent
                         break;
                     case "video":
                         VideoOverlay vo = parseVideoOverlay(reader);
-                        VideoOverlay portraitVO = vo;
-                        VideoOverlay landscapeVO = vo;
+                        VideoOverlay portraitVO = new VideoOverlay(vo);
+                        VideoOverlay landscapeVO = new VideoOverlay(vo);
                         if (portraitTuple.Item1 != -1)
                         {
                             portraitVO.Id = id + "_P";
@@ -612,20 +615,25 @@ namespace FolioParserComponent
                 {
                     break;
                 }
-                else if (reader.Name == "audioUrl" && reader.NodeType != XmlNodeType.EndElement)
+                else if(reader.NodeType != XmlNodeType.EndElement)
                 {
-                    reader.Read();
-                    ao.AudioUrl = reader.Value;
-                }
-                else if (reader.Name == "autoStart" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    ao.AutoStart = Convert.ToBoolean(reader.Value);
-                }
-                else if (reader.Name == "autoStartDelay" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    ao.AutoStartDelay = Convert.ToDouble(reader.Value);
+                    switch(reader.Name)
+                    {
+                        case "audioUrl":
+                            reader.Read();
+                            ao.AudioUrl = reader.Value;
+                            break;
+                        case "autoStart":
+                            reader.Read();
+                            ao.AutoStart = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "autoStartDelay":
+                            reader.Read();
+                            ao.AutoStartDelay = Convert.ToDouble(reader.Value);
+                            break;
+                        default:
+                            break;
+                    }
                 }
             }
             return ao;
@@ -641,20 +649,25 @@ namespace FolioParserComponent
                 {
                     break;
                 }
-                else if (reader.Name == "url" && reader.NodeType != XmlNodeType.EndElement)
+                else if(reader.NodeType != XmlNodeType.EndElement)
                 {
-                    reader.Read();
-                    ho.Url = reader.Value;
-                }
-                else if (reader.Name == "reqNavConfirm" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    ho.ReqNavConfirm = Convert.ToBoolean(reader.Value);
-                }
-                else if (reader.Name == "openInApp" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    ho.OpenInApp = Convert.ToBoolean(reader.Value);
+                    switch(reader.Name)
+                    {
+                        case "url":
+                            reader.Read();
+                            ho.Url = reader.Value;
+                            break;
+                        case "reqNavConfirm":
+                            reader.Read();
+                            ho.ReqNavConfirm = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "openInApp":
+                            reader.Read();
+                            ho.OpenInApp = Convert.ToBoolean(reader.Value);
+                            break;
+                        default:
+                            break;
+                    }
                 }
             }
             return ho;
@@ -681,71 +694,72 @@ namespace FolioParserComponent
         public SlideshowOverlay parseSlideShowOverlay(XmlReader reader)
         {
             SlideshowOverlay so = new SlideshowOverlay();
-
-            if (reader.ReadToFollowing("drawHighlight"))
+            while (reader.Read())
             {
-                reader.Read();
-                so.DrawHighlight = Convert.ToBoolean(reader.Value);
-            }
-            if (reader.ReadToFollowing("selectedHighlight"))
-            {
-                reader.Read();
-                so.SelectedHighlight = Convert.ToDouble(reader.Value);
-            }
-            if (reader.ReadToFollowing("crossFadeImages"))
-            {
-                reader.Read();
-                so.CrossFadeImages = Convert.ToBoolean(reader.Value);
-            }
-            if (reader.ReadToFollowing("crossFadeImagesDelay"))
-            {
-                reader.Read();
-                so.CrossFadeImagesDelay = Convert.ToDouble(reader.Value);
-            }
-            if (reader.ReadToFollowing("defaultSelected"))
-            {
-                reader.Read();
-                so.DefaultSelected = Convert.ToBoolean(reader.Value);
-            }
-            if (reader.ReadToFollowing("autoStart"))
-            {
-                reader.Read();
-                so.AutoStart = Convert.ToBoolean(reader.Value);
-            }
-            if (reader.ReadToFollowing("autoStartDelay"))
-            {
-                reader.Read();
-                so.AutoStartDelay = Convert.ToDouble(reader.Value);
-            }
-            if (reader.ReadToFollowing("autoTransitionDuration"))
-            {
-                reader.Read();
-                so.AutoTransitionDuration = Convert.ToDouble(reader.Value);
-            }
-            if (reader.ReadToFollowing("loopCount"))
-            {
-                reader.Read();
-                so.LoopCount = Convert.ToInt32(reader.Value);
-            }
-            if (reader.ReadToFollowing("reverseImageOrder"))
-            {
-                reader.Read();
-                so.ReverseImageOrder = Convert.ToBoolean(reader.Value);
-            }
-            if (reader.ReadToFollowing("tapEnabled"))
-            {
-                reader.Read();
-                so.TapEnabled = Convert.ToBoolean(reader.Value);
-            }
-            if (reader.ReadToFollowing("swipeEnabled"))
-            {
-                reader.Read();
-                so.SwipeEnabled = Convert.ToBoolean(reader.Value);
-            }
-            if (reader.ReadToFollowing("swipeStop"))
-            {
-                reader.Read();
-                so.SwipeStop = Convert.ToBoolean(reader.Value);
+                if (reader.Name == "overlayAsset" || reader.Name == "landscapeLayout" || reader.Name == "portraitLayout")
+                {
+                    break;
+                }
+                else if (reader.NodeType != XmlNodeType.EndElement)
+                {
+                    switch(reader.Name)
+                    {
+                        case "drawHighlight":
+                            reader.Read();
+                            so.DrawHighlight = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "selectedHighlight":
+                            reader.Read();
+                            so.SelectedHighlight = Convert.ToDouble(reader.Value);
+                            break;
+                        case "crossFadeImages":
+                            reader.Read();
+                            so.CrossFadeImages = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "crossFadeImagesDelay":
+                            reader.Read();
+                            so.CrossFadeImagesDelay = Convert.ToDouble(reader.Value);
+                            break;
+                        case "defaultSelected":
+                            reader.Read();
+                            so.DefaultSelected = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "autoStart":
+                            reader.Read();
+                            so.AutoStart = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "autoStartDelay":
+                            reader.Read();
+                            so.AutoStartDelay = Convert.ToDouble(reader.Value);
+                            break;
+                        case "autoTransitionDuration":
+                            reader.Read();
+                            so.AutoTransitionDuration = Convert.ToDouble(reader.Value);
+                            break;
+                        case "loopCount":
+                            reader.Read();
+                            so.LoopCount = Convert.ToInt32(reader.Value);
+                            break;
+                        case "reverseImageOrder":
+                            reader.Read();
+                            so.ReverseImageOrder = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "tapEnabled":
+                            reader.Read();
+                            so.TapEnabled = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "swipeEnabled":
+                            reader.Read();
+                            so.SwipeEnabled = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "swipeStop":
+                            reader.Read();
+                            so.SwipeStop = Convert.ToBoolean(reader.Value);
+                            break;
+                        default:
+                            break;
+                    }
+                }
             }
             return so;
         }
@@ -760,35 +774,37 @@ namespace FolioParserComponent
                 {
                     break;
                 }
-                else if (reader.Name == "webViewUrl" && reader.NodeType != XmlNodeType.EndElement)
+                else if(reader.NodeType != XmlNodeType.EndElement)
                 {
-                    reader.Read();
-                    wo.WebViewUrl = reader.Value;
-                }
-                else if (reader.Name == "useTransparentBackground" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    wo.UseTransparentBackground = Convert.ToBoolean(reader.Value);
-                }
-                else if (reader.Name == "userInteractionEnabled" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    wo.UserInteractionEnabled = Convert.ToBoolean(reader.Value);
-                }
-                else if (reader.Name == "scaleContentToFit" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    wo.ScaleContentToFit = Convert.ToBoolean(reader.Value);
-                }
-                else if (reader.Name == "autoStart" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    wo.AutoStart = Convert.ToBoolean(reader.Value);
-                }
-                else if (reader.Name == "autoStartDelay" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    wo.AutoStartDelay = Convert.ToDouble(reader.Value);
+                    switch(reader.Name)
+                    {
+                        case "webViewUrl":
+                            reader.Read();
+                            wo.WebViewUrl = reader.Value;
+                            break;
+                        case "useTransparentBackground":
+                            reader.Read();
+                            wo.UseTransparentBackground = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "userInteractionEnabled":
+                            reader.Read();
+                            wo.UserInteractionEnabled = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "scaleContentToFit":
+                            reader.Read();
+                            wo.ScaleContentToFit = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "autoStart":
+                            reader.Read();
+                            wo.AutoStart = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "autoStartDelay":
+                            reader.Read();
+                            wo.AutoStartDelay = Convert.ToDouble(reader.Value);
+                            break;
+                        default:
+                            break;
+                    }
                 }
             }
             return wo;
@@ -804,30 +820,33 @@ namespace FolioParserComponent
                 {
                     break;
                 }
-                else if (reader.Name == "videoUrl" && reader.NodeType != XmlNodeType.EndElement)
+                else if(reader.NodeType != XmlNodeType.EndElement)
                 {
-                    reader.Read();
-                    vo.VideoUrl = reader.Value;
-                }
-                else if (reader.Name == "playInContext" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    vo.PlayInContext = Convert.ToBoolean(reader.Value);
-                }
-                else if (reader.Name == "showControlsByDefault" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    vo.ShowControlsByDefault = Convert.ToBoolean(reader.Value);
-                }
-                else if (reader.Name == "autoStart" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    vo.AutoStart = Convert.ToBoolean(reader.Value);
-                }
-                else if (reader.Name == "autoStartDelay" && reader.NodeType != XmlNodeType.EndElement)
-                {
-                    reader.Read();
-                    vo.AutoStartDelay = Convert.ToDouble(reader.Value);
+                    switch(reader.Name)
+                    {
+                        case "videoUrl":
+                            reader.Read();
+                            vo.VideoUrl = reader.Value;
+                            break;
+                        case "playInContext":
+                            reader.Read();
+                            vo.PlayInContext = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "showControlsByDefault":
+                            reader.Read();
+                            vo.ShowControlsByDefault = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "autoStart":
+                            reader.Read();
+                            vo.AutoStart = Convert.ToBoolean(reader.Value);
+                            break;
+                        case "autoStartDelay":
+                            reader.Read();
+                            vo.AutoStartDelay = Convert.ToDouble(reader.Value);
+                            break;
+                        default:
+                            break;
+                    }
                 }
             }
             return vo;

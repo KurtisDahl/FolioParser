@@ -10,6 +10,25 @@ namespace FolioParserComponent
     [DataContract]
     public sealed class VideoOverlay
     {
+        public VideoOverlay() 
+        {
+        }
+
+        public VideoOverlay(VideoOverlay vo)
+        {
+            this.AutoStart = vo.AutoStart;
+            this.AutoStartDelay = vo.AutoStartDelay;
+            this.Height = vo.Height;
+            this.Id = vo.Id;
+            this.Orientation = vo.Orientation;
+            this.PlayInContext = vo.PlayInContext;
+            this.ShowControlsByDefault = vo.ShowControlsByDefault;
+            this.VideoUrl = vo.VideoUrl;
+            this.Width = vo.Width;
+            this.X = vo.X;
+            this.Y = vo.Y;
+        }
+
         [DataMember(Name = "id", IsRequired = true)]
         public string Id { get; set; }
 

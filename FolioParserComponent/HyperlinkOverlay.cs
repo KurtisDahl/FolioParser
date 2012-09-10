@@ -10,6 +10,23 @@ namespace FolioParserComponent
     [DataContract]
     public sealed class HyperlinkOverlay
     {
+        public HyperlinkOverlay()
+        {
+        }
+
+        public HyperlinkOverlay(HyperlinkOverlay ho)
+        {
+            this.Height = ho.Height;
+            this.Id = ho.Id;
+            this.OpenInApp = ho.OpenInApp;
+            this.Orientation = ho.Orientation;
+            this.ReqNavConfirm = ho.ReqNavConfirm;
+            this.Url = ho.Url;
+            this.Width = ho.Width;
+            this.X = ho.X;
+            this.Y = ho.Y;
+        }
+
         [DataMember(Name = "id", IsRequired = true)]
         public string Id { get; set; }
 

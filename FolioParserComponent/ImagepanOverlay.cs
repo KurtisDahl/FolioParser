@@ -15,6 +15,23 @@ namespace FolioParserComponent
             this.OverlayAssets = new List<OverlayAsset>();
         }
 
+        public ImagepanOverlay(ImagepanOverlay io)
+        {
+            this.AnchorX = io.AnchorX;
+            this.AnchorY = io.AnchorY;
+            this.Height = io.Height;
+            this.Id = io.Id;
+            this.Orientation = io.Orientation;
+            this.OverlayAssets = new List<OverlayAsset>();
+            this.ViewPortBoundsHeight = io.ViewPortBoundsHeight;
+            this.ViewPortBoundsWidth = io.ViewPortBoundsWidth;
+            this.ViewPortBoundsX = io.ViewPortBoundsX;
+            this.ViewPortBoundsY = io.ViewPortBoundsY;
+            this.Width = io.Width;
+            this.X = io.X;
+            this.Y = io.Y;
+        }
+
         [DataMember(Name = "id", IsRequired = true)]
         public string Id { get; set; }
 

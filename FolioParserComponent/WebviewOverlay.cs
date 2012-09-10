@@ -10,6 +10,26 @@ namespace FolioParserComponent
     [DataContract]
     public sealed class WebviewOverlay
     {
+        public WebviewOverlay()
+        {
+        }
+
+        public WebviewOverlay(WebviewOverlay wo)
+        {
+            this.AutoStart = wo.AutoStart;
+            this.AutoStartDelay = wo.AutoStartDelay;
+            this.Height = wo.Height;
+            this.Id = wo.Id;
+            this.Orientation = wo.Orientation;
+            this.ScaleContentToFit = wo.ScaleContentToFit;
+            this.UserInteractionEnabled = wo.UserInteractionEnabled;
+            this.UseTransparentBackground = wo.UseTransparentBackground;
+            this.WebViewUrl = wo.WebViewUrl;
+            this.Width = wo.Width;
+            this.X = wo.X;
+            this.Y = wo.Y;
+        }
+
         [DataMember(Name = "id", IsRequired = true)]
         public string Id { get; set; }
 

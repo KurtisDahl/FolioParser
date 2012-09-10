@@ -14,7 +14,6 @@ namespace FolioParserComponent
     {
         public async Task<Issue> ParseAsync(IStorageFile issueFolioFile)
         { 
-            string prevName = "";
             Issue issue = new Issue();
             
             Stream stream = await issueFolioFile.OpenStreamForReadAsync();
@@ -28,48 +27,25 @@ namespace FolioParserComponent
 
                 while (reader.Read())
                 {
-                    switch (reader.NodeType)
+                    if (reader.NodeType != XmlNodeType.EndElement)
                     {
-                        case XmlNodeType.Element: // The node is an element.
-                            if(reader.Name == "folio")
-                            {
-                                while (reader.MoveToNextAttribute())
-                                {
-                                    switch (reader.Name)
-                                    {
-                                        case "id":
-                                            issue.Id = reader.Value;
-                                            break;
-                                        case "date":
-                                            issue.Date = reader.Value;
-                                            break;
-                                        default:
-                                            break;
-                                    }
-                                }
-                            }
-                            else
-                            {
-                                prevName = reader.Name;
-                            } 
-                            break;
-                        case XmlNodeType.Text: //Display the text in each element.
-                            if (prevName == "magazineTitle")
-                            {
+                        switch (reader.Name)
+                        {
+                            case "folio":
+                                issue.Id = reader.GetAttribute("id");
+                                issue.Date = reader.GetAttribute("date");
+                                break;
+                            case "magazineTitle":
+                                reader.Read();
                                 issue.DisplayName = reader.Value;
-                                prevName = "";
-                            }
-                            break;
-                        case XmlNodeType.EndElement: //Display the end of the element.
-                            break;
-                        default:
-                            break;
+                                break;
+                            default:
+                                break;
+                        }
                     }
                 }
-                
             }
             return issue;
-
         }
     }
 }

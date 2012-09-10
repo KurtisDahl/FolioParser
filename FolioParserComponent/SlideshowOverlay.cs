@@ -16,6 +16,35 @@ namespace FolioParserComponent
             this.OverlayButtons = new List<OverlayButton>();
         }
 
+        public SlideshowOverlay(SlideshowOverlay so)
+        {
+            this.AutoStart = so.AutoStart;
+            this.AutoStartDelay = so.AutoStartDelay;
+            this.AutoTransitionDuration = so.AutoTransitionDuration;
+            this.CrossFadeImages = so.CrossFadeImages;
+            this.CrossFadeImagesDelay = so.CrossFadeImagesDelay;
+            this.DefaultSelected = so.DefaultSelected;
+            this.DisplayBoundsHeight = so.DisplayBoundsHeight;
+            this.DisplayBoundsWidth = so.DisplayBoundsWidth;
+            this.DisplayBoundsX = so.DisplayBoundsX;
+            this.DisplayBoundsY = so.DisplayBoundsY;
+            this.DrawHighlight = so.DrawHighlight;
+            this.Height = so.Height;
+            this.Id = so.Id;
+            this.LoopCount = so.LoopCount;
+            this.Orientation = so.Orientation;
+            this.OverlayAssets = new List<OverlayAsset>();
+            this.OverlayButtons = new List<OverlayButton>();
+            this.ReverseImageOrder = so.ReverseImageOrder;
+            this.SelectedHighlight = so.SelectedHighlight;
+            this.SwipeEnabled = so.SwipeEnabled;
+            this.SwipeStop = so.SwipeStop;
+            this.TapEnabled = so.TapEnabled;
+            this.Width = so.Width;
+            this.X = so.X;
+            this.Y = so.Y;
+        }
+
         [DataMember(Name = "id", IsRequired = true)]
         public string Id { get; set; }
 

@@ -19,7 +19,7 @@
                 parser.parseArticle("ArticleFolio.xml");
                 parser.parseArticle("00_0000_NavTo.Folio.xml");
                 parser.parseArticle("01_5150_LU0912_sspy04.Folio.xml");
-                parser.parseArticle("02_5800_AL0712_profile_Folder.Folio.xml");
+                parser.parseArticle("02_5800_AL0712_Profile_Folder.Folio.xml");
                 parser.parseArticle("03_4400_GQ0812_Norway.Folio.xml");
                 parser.parseArticle("04_2050_VO0311_Diary.Folio.xml");
                 parser.parseArticle("05_1500_SE0712_MOBstyTreySongz.Folio.xml");
