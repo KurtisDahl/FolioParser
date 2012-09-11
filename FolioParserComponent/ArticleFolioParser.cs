@@ -173,7 +173,6 @@ namespace FolioParserComponent
             {
                 page.SubId = ids[1].ToString();
             }
-
             return page;
         }
 
