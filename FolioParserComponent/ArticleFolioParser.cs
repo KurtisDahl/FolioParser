@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -19,6 +20,10 @@ namespace FolioParserComponent
             Stream stream = await articleFolioFile.OpenStreamForReadAsync();
 
             XmlReader reader = XmlReader.Create(stream);
+
+            // skips the information we actually need to start with
+            reader.ReadToFollowing("contentStacks");
+
             while (reader.Read())
             {
                 if (reader.NodeType != XmlNodeType.EndElement)
@@ -55,8 +60,18 @@ namespace FolioParserComponent
                     }
                 }
             }
+            stream.Dispose();
+            //DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(Article));
+            //var loc = Windows.ApplicationModel.Package.Current.InstalledLocation;
+            //IStorageFile file = await loc.GetFileAsync("json_article.txt").AsTask();
+            //Stream outstream = await file.OpenStreamForWriteAsync();
+
+            //ser.WriteObject(outstream, article);
+            
+
             return article;
         }
+
 
         public IList<Page> parsePages(XmlReader reader)
         {
@@ -73,7 +88,7 @@ namespace FolioParserComponent
                     {
                         bool found = false;
                         Page newPage = parseLandscapePage(reader);
-                        // find the existing page in the List of pages
+                        // find the existing page in the List of pages and adds the landscape data to it
                         foreach (Page p in pages)
                         {
                             if (p.Id == newPage.Id)
@@ -93,7 +108,7 @@ namespace FolioParserComponent
                                 break;
                             }
                         }
-                        if (!found)
+                        if (!found)  // a landscape page that does not already have a portrait page in the list
                         {
                             pages.Add(newPage);
                         }
@@ -142,6 +157,8 @@ namespace FolioParserComponent
                     }
                 }
             }
+
+            // parses the integers off the end of the Id from the xml
             Regex regex = new Regex("\\d+(_+\\d+)*");
             page.Id = regex.Match(page.PortraitContentUrl).ToString();
 
@@ -183,16 +200,20 @@ namespace FolioParserComponent
                     }
                 }
             }
+            // parses the integers off the end of the Id from the xml
             Regex regex = new Regex("\\d+(_+\\d+)*");
             page.Id = regex.Match(page.LandscapeContentUrl).ToString();
 
             return page;
         }
 
+        // searches the pages list for the proper page to add overlay to
+        // creates an overlay for each orientation if there are more than one
         public Article parseOverlays(XmlReader reader, Article article)
         {
             while (reader.ReadToFollowing("overlay"))
             {
+                
                 double portraitX = -1;
                 double portraitY = -1;
                 double landscapeX = -1;
@@ -210,12 +231,14 @@ namespace FolioParserComponent
 
                 while (reader.Read())
                 {
+                    // indicates the end of the overlay
                     if (reader.Name == "data")
                     {
                         break;
                     }
                     else if (reader.NodeType != XmlNodeType.EndElement)
                     {
+                        //assigns the attributes for portrait orientation if it exists
                         if (reader.Name == "portraitBounds")
                         {
                             if (reader.ReadToFollowing("rectangle"))
@@ -227,6 +250,7 @@ namespace FolioParserComponent
                                 portraitTuple = calculatePortraitPage(portraitY, article.Pages);
                             }
                         }
+                        //assigns the attributes for landscape orientation if it exists
                         else if (reader.Name == "landscapeBounds")
                         {
                             if (reader.ReadToFollowing("rectangle"))
@@ -248,7 +272,7 @@ namespace FolioParserComponent
                         AudioOverlay portraitAO = new AudioOverlay(ao);
                         AudioOverlay landscapeAO = new AudioOverlay(ao);
 
-                        if (portraitTuple.Item1 != -1)
+                        if (portraitTuple.Item1 != -1)  // there exists a portrait orientation for this overlay
                         {
                             portraitAO.Id = id + "_P";
                             portraitAO.Orientation = "portrait";
@@ -258,7 +282,7 @@ namespace FolioParserComponent
                             portraitAO.Height = portraitHeight;
                             article.Pages[portraitTuple.Item1].AudioOverlays.Add(portraitAO);
                         }
-                        if (landscapeTuple.Item1 != -1)
+                        if (landscapeTuple.Item1 != -1) // there exists a landscape orientation for this overlay
                         {
                             landscapeAO.Id = id + "_L";
                             landscapeAO.Orientation = "landscape";
@@ -273,7 +297,8 @@ namespace FolioParserComponent
                         HyperlinkOverlay ho = parseHyperlinkOverlay(reader);
                         HyperlinkOverlay portraitHO = new HyperlinkOverlay(ho);
                         HyperlinkOverlay landscapeHO = new HyperlinkOverlay(ho);
-                        if (portraitTuple.Item1 != -1)
+
+                        if (portraitTuple.Item1 != -1) // there exists a portrait orientation for this overlay
                         {
                             portraitHO.Id = id + "_P";
                             portraitHO.Orientation = "portrait";
@@ -283,7 +308,7 @@ namespace FolioParserComponent
                             portraitHO.Height = portraitHeight;
                             article.Pages[portraitTuple.Item1].HyperlinkOverlays.Add(portraitHO);
                         }
-                        if (landscapeTuple.Item1 != -1)
+                        if (landscapeTuple.Item1 != -1) // there exists a landscape orientation for this overlay
                         {
                             landscapeHO.Id = id + "_L";
                             landscapeHO.Orientation = "landscape";
@@ -298,8 +323,10 @@ namespace FolioParserComponent
                         ImagepanOverlay portraitIO = new ImagepanOverlay();
                         ImagepanOverlay landscapeIO = new ImagepanOverlay();
                         
+                        // get overlay assets before we get the overlays attributes
                         while (reader.Read())
                         {
+                            // indicates the end of the asstes
                             if (reader.Name == "anchorPoint")
                             {
                                 break;
@@ -318,9 +345,8 @@ namespace FolioParserComponent
                         }
 
                         ImagepanOverlay io = parseImagepanOverlay(reader);
-                        
 
-                        if (portraitTuple.Item1 != -1)
+                        if (portraitTuple.Item1 != -1)  // there exists a portrait orientation for this overlay
                         {
                             portraitIO.Id = id + "_P";
                             portraitIO.Orientation = "portrait";
@@ -330,6 +356,7 @@ namespace FolioParserComponent
                             portraitIO.Height = portraitHeight;
                             portraitIO.AnchorX = io.AnchorX;
                             portraitIO.AnchorY = io.AnchorY;
+                            // getting the viewport bounds if they exist
                              while (reader.Read())
                             {
                                 if ((reader.Name == "portraitBounds" && reader.NodeType == XmlNodeType.EndElement) || reader.Name == "landscapeBounds")
@@ -344,7 +371,7 @@ namespace FolioParserComponent
                            
                             article.Pages[portraitTuple.Item1].ImagepanOverlays.Add(portraitIO);
                         }
-                        if (landscapeTuple.Item1 != -1)
+                        if (landscapeTuple.Item1 != -1)  // there exists a landscape orientation for this overlay
                         {
                             landscapeIO.Id = id + "_L";
                             landscapeIO.Orientation = "landscape";
@@ -354,7 +381,7 @@ namespace FolioParserComponent
                             landscapeIO.Height = landscapeHeight;
                             landscapeIO.AnchorX = io.AnchorX;
                             landscapeIO.AnchorY = io.AnchorY;
-
+                            // getting the viewport bounds if they exist
                             do{
                                 if(reader.Name == "initialViewport" && reader.NodeType == XmlNodeType.EndElement)
                                 {
@@ -372,10 +399,11 @@ namespace FolioParserComponent
                     case "slideshow":
                         // shared slideshow overlay attributes
                         SlideshowOverlay so = parseSlideShowOverlay(reader);
+
                         SlideshowOverlay portraitSO = new SlideshowOverlay(so);
                         SlideshowOverlay landscapeSO = new SlideshowOverlay(so);
                         
-                        
+                        // getting the overlay assets for each oreintation if there are any
                         do{
                             if (reader.Name == "portraitLayout" || reader.Name == "landscapeLayout")
                             {
@@ -394,7 +422,7 @@ namespace FolioParserComponent
                             }
                         }while (reader.Read());
 
-                        if (portraitTuple.Item1 != -1)
+                        if (portraitTuple.Item1 != -1)  // there is a portrait layout for this overlay
                         {
                             portraitSO.Id = id + "_P";
                             portraitSO.X = portraitX;
@@ -420,7 +448,7 @@ namespace FolioParserComponent
                             }
                             article.Pages[portraitTuple.Item1].SlideshowOverlays.Add(portraitSO);
                         }
-                        if (landscapeTuple.Item1 != -1)
+                        if (landscapeTuple.Item1 != -1)  // there is a landscape layout for this overlay
                         {
                             landscapeSO.Id = id + "_L";
                             landscapeSO.X = landscapeX;
@@ -452,7 +480,8 @@ namespace FolioParserComponent
                         WebviewOverlay wo = parseWebViewOverlay(reader);
                         WebviewOverlay portraitWO = new WebviewOverlay(wo);
                         WebviewOverlay landscapeWO = new WebviewOverlay(wo);
-                        if (portraitTuple.Item1 != -1)
+
+                        if (portraitTuple.Item1 != -1) // there is a portrait layout for this overlay
                         {
                             portraitWO.Id = id + "_P";
                             portraitWO.Orientation = "portrait";
@@ -462,7 +491,7 @@ namespace FolioParserComponent
                             portraitWO.Height = portraitHeight;
                             article.Pages[portraitTuple.Item1].WebviewOverlay.Add(portraitWO);
                         }
-                        if (landscapeTuple.Item1 != -1)
+                        if (landscapeTuple.Item1 != -1) // there is a landscape layout for this overlay
                         {
                             landscapeWO.Id = id + "_L";
                             landscapeWO.Orientation = "landscape";
@@ -477,7 +506,8 @@ namespace FolioParserComponent
                         VideoOverlay vo = parseVideoOverlay(reader);
                         VideoOverlay portraitVO = new VideoOverlay(vo);
                         VideoOverlay landscapeVO = new VideoOverlay(vo);
-                        if (portraitTuple.Item1 != -1)
+
+                        if (portraitTuple.Item1 != -1)  // there is a portrait layout for this overlay
                         {
                             portraitVO.Id = id + "_P";
                             portraitVO.Orientation = "portrait";
@@ -487,7 +517,7 @@ namespace FolioParserComponent
                             portraitVO.Height = portraitHeight;
                             article.Pages[portraitTuple.Item1].VideoOverlays.Add(portraitVO);
                         }
-                        if (landscapeTuple.Item1 != -1)
+                        if (landscapeTuple.Item1 != -1)  // there is a landscape layout for this overlay
                         {
                             landscapeVO.Id = id + "_L";
                             landscapeVO.Orientation = "landscape";
@@ -506,6 +536,12 @@ namespace FolioParserComponent
             return article;
         }
 
+        /// <summary>
+        /// Calculates which portrait page the overlay is maped to
+        /// </summary>
+        /// <param name="y">The y cordinate based on the entire article</param>
+        /// <param name="pages">The list of pages that this article has</param>
+        /// <returns> a Tuple<index of page, page dependant y cordinate</returns>
         public Tuple<int, double> calculatePortraitPage(double y, IList<Page> pages)
         {
             double remainingHeight = y;
@@ -525,6 +561,12 @@ namespace FolioParserComponent
             return Tuple.Create(index, remainingHeight);
         }
 
+        /// <summary>
+        /// Calculates which landscape page the overlay is maped to
+        /// </summary>
+        /// <param name="y">The y cordinate based on the entire article</param>
+        /// <param name="pages">The list of pages that this article has</param>
+        /// <returns> a Tuple<index of page, page dependant y cordinate</returns>
         public Tuple<int, double> calculateLandscapePage(double y, IList<Page> pages)
         {
             double remainingHeight = y;
@@ -543,7 +585,8 @@ namespace FolioParserComponent
             }
             return Tuple.Create(index, remainingHeight);
         }
-
+        
+        /// <returns>The parsed overlay asset</returns>
         public OverlayAsset parseOverlayAsset(XmlReader reader)
         {
             OverlayAsset oa = new OverlayAsset();
@@ -556,6 +599,7 @@ namespace FolioParserComponent
             return oa;
         }
 
+        /// <returns> The parsed button to be attached to an overlay</returns>
         public OverlayButton parseOverlayButton(XmlReader reader)
         {
             OverlayButton ob = new OverlayButton();
@@ -569,7 +613,7 @@ namespace FolioParserComponent
                 {
                     break;
                 }
-                else if (reader.Name == "rectangle")
+                else if (reader.Name == "rectangle" && reader.NodeType != XmlNodeType.EndElement)
                 {
                     ob.X = Convert.ToDouble(reader.GetAttribute("x"));
                     ob.Y = Convert.ToDouble(reader.GetAttribute("y"));
@@ -583,6 +627,8 @@ namespace FolioParserComponent
 
         public SlideshowOverlay parseSlideshowOverlayDisplaybounds(XmlReader reader, SlideshowOverlay so)
         {
+            // this works because we know there is a rectangle element tied to this overlay and won't skip to the next overlay
+            // from the way this function is called
             if (reader.ReadToFollowing("rectangle"))
             {
                 so.DisplayBoundsX = Convert.ToDouble(reader.GetAttribute("x"));
@@ -595,6 +641,8 @@ namespace FolioParserComponent
 
         public ImagepanOverlay parseImagepanOverlayViewportbounds(XmlReader reader, ImagepanOverlay io)
         {
+            // this works because we know there is a rectangle element tied to this overlay and won't skip to the next overlay
+            // from the way this function is called
             if (reader.ReadToFollowing("rectangle"))
             {
                 io.ViewPortBoundsX = Convert.ToDouble(reader.GetAttribute("x"));
@@ -682,7 +730,7 @@ namespace FolioParserComponent
                 {
                     break;
                 }
-                else if (reader.Name == "point")
+                else if (reader.Name == "point" && reader.NodeType != XmlNodeType.EndElement)
                 {
                     io.AnchorX = Convert.ToDouble(reader.GetAttribute("x"));
                     io.AnchorY = Convert.ToDouble(reader.GetAttribute("y"));

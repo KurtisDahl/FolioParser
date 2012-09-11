@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-10T21:38:08.112</Modified>
+      <Modified>2012-09-11T16:35:38.865</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParserComponent\bin\Debug\FolioParserComponent.winmd">
       <PackagePath>FolioParserComponent.winmd</PackagePath>
-      <Modified>2012-09-10T21:38:07.054</Modified>
+      <Modified>2012-09-11T16:35:37.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParserComponent\bin\Debug\FolioParserComponent.pdb">
       <PackagePath>FolioParserComponent.pdb</PackagePath>
-      <Modified>2012-09-10T21:38:07.039</Modified>
+      <Modified>2012-09-11T16:35:37.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\00_0000_NavTo.Folio.xml">
       <PackagePath>00_0000_NavTo.Folio.xml</PackagePath>
@@ -112,13 +112,17 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-07-26T18:30:08.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\json_article.txt">
+      <PackagePath>json_article.txt</PackagePath>
+      <Modified>2012-09-10T23:50:47.592</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\js\data.js">
       <PackagePath>js\data.js</PackagePath>
       <Modified>2012-06-06T04:54:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-09-10T20:11:26.239</Modified>
+      <Modified>2012-09-10T22:31:23.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
@@ -154,7 +158,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-09-10T17:46:30.010</Modified>
+      <Modified>2012-09-10T23:50:57.573</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

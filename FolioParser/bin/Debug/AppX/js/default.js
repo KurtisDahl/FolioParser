@@ -27,8 +27,6 @@
                 parser.parseArticle("09_2100_VO0311_Photo1.Folio.xml");
                 parser.parseArticle("10_1300_GQ0612_MRebel.Folio.xml");
                 parser.parseArticle("11_2500_BA0812_Foodist.Folio.xml");
-                
-
             } else {
                 // TODO: This application has been reactivated from suspension.
                 // Restore application state here.
