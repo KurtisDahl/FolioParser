@@ -12,9 +12,9 @@ namespace FolioParserComponent
 {
     internal class IssueFolioParser : IIssueFolioParser
     {
-        public async Task<Issue> ParseAsync(IStorageFile issueFolioFile)
+        public async Task<Issue> ParseAsync(IStorageFile issueFolioFile, string pathPrefix)
         { 
-            Issue issue = new Issue();
+            Issue issue = new Issue(pathPrefix);
             
             Stream stream = await issueFolioFile.OpenStreamForReadAsync();
 

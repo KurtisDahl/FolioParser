@@ -4,7 +4,7 @@
     <ReferenceCachePath>C:\Users\Kurtis\AppData\Local\Temp\FolioParser_refcache</ReferenceCachePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DebuggerType>ManagedOnly</DebuggerType>
     <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <DebuggerType>ManagedOnly</DebuggerType>
   </PropertyGroup>
 </Project>

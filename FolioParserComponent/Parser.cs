@@ -18,12 +18,13 @@ namespace FolioParserComponent
         private async Task<Issue> ParseIssueInternal(string filePath)
         {
             IStorageFile file = await this.GetFileAsync(filePath);
-            return await this.issueParser.ParseAsync(file);
+            return await this.issueParser.ParseAsync(file, string.Empty);
         }
 
         public IAsyncOperation<Article> ParseArticle(string filePath)
         {
-            return this.ParseArticleInternal(filePath).AsAsyncOperation<Article>();
+            var test = this.ParseArticleInternal(filePath).AsAsyncOperation<Article>();
+            return test;
         }
 
         private async Task<Article> ParseArticleInternal(string filePath)

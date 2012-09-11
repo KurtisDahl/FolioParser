@@ -9,6 +9,6 @@ namespace FolioParserComponent
 {
     internal interface IIssueFolioParser
     {
-        Task<Issue> ParseAsync(IStorageFile issueFolioFile);
+        Task<Issue> ParseAsync(IStorageFile issueFolioFile, string pathPrefix);
     }
 }

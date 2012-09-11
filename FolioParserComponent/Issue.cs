@@ -10,8 +10,10 @@ namespace FolioParserComponent
     [DataContract]
     public sealed class Issue
     {
-        public Issue()
+        public Issue(string pathPrefix)
         {
+            this.pathPrefix = pathPrefix;
+
             this.Articles = new List<Article>();
         }
 
@@ -35,5 +37,6 @@ namespace FolioParserComponent
 
         public IList<Article> Articles { get; set; }
 
+        private string pathPrefix;
     }
 }
