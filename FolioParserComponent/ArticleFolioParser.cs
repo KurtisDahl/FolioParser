@@ -89,22 +89,34 @@ namespace FolioParserComponent
                         bool found = false;
                         Page newPage = parseLandscapePage(reader);
                         // find the existing page in the List of pages and adds the landscape data to it
+                        // or if the landscape page is an extra sub page inject it before the next page
                         foreach (Page p in pages)
                         {
                             if (p.Id == newPage.Id)
                             {
+                                // if the id's are perfect matches or newPage doesn't have a sub id
+                                if(p.SubId == newPage.SubId || newPage.SubId == null)
+                                {
+                                    found = true;
+                                    p.LandscapeContentUrl = newPage.LandscapeContentUrl;
+                                    p.LandscapeContentWidth = newPage.LandscapeContentWidth;
+                                    p.LandscapeContentHeight = newPage.LandscapeContentHeight;
+
+                                    p.LandscapeThumbUrl = newPage.LandscapeThumbUrl;
+                                    p.LandscapeThumbWidth = newPage.LandscapeThumbWidth;
+                                    p.LandscapeThumbHeight = newPage.LandscapeThumbHeight;
+
+                                    p.LandscapeScrubberUrl = newPage.LandscapeScrubberUrl;
+                                    p.LandscapeScrubberWidth = newPage.LandscapeScrubberWidth;
+                                    p.LandscapeScrubberHeight = newPage.LandscapeScrubberHeight;
+                                    break;
+                                }
+                            }
+                            // if there is more landscape subpages than portrait subpages for a given page
+                            else if (Convert.ToInt32(p.Id) > Convert.ToInt32(newPage.Id))
+                            {
                                 found = true;
-                                p.LandscapeContentUrl = newPage.LandscapeContentUrl;
-                                p.LandscapeContentWidth = newPage.LandscapeContentWidth;
-                                p.LandscapeContentHeight = newPage.LandscapeContentHeight;
-
-                                p.LandscapeThumbUrl = newPage.LandscapeThumbUrl;
-                                p.LandscapeThumbWidth = newPage.LandscapeThumbWidth;
-                                p.LandscapeThumbHeight = newPage.LandscapeThumbHeight;
-
-                                p.LandscapeScrubberUrl = newPage.LandscapeScrubberUrl;
-                                p.LandscapeScrubberWidth = newPage.LandscapeScrubberWidth;
-                                p.LandscapeScrubberHeight = newPage.LandscapeScrubberHeight;
+                                pages.Insert(pages.IndexOf(p), newPage);
                                 break;
                             }
                         }
@@ -159,8 +171,16 @@ namespace FolioParserComponent
             }
 
             // parses the integers off the end of the Id from the xml
-            Regex regex = new Regex("\\d+(_+\\d+)*");
-            page.Id = regex.Match(page.PortraitContentUrl).ToString();
+            
+            Regex idRegex = new Regex("\\d+");
+            var ids = idRegex.Matches(page.PortraitContentUrl);
+            //main page number
+            page.Id = ids[0].ToString();
+            //sub page number is second element in the matches array if it is a subpage
+            if (ids.Count > 1)
+            {
+                page.SubId = ids[1].ToString();
+            }
 
             return page;
         }
@@ -201,8 +221,15 @@ namespace FolioParserComponent
                 }
             }
             // parses the integers off the end of the Id from the xml
-            Regex regex = new Regex("\\d+(_+\\d+)*");
-            page.Id = regex.Match(page.LandscapeContentUrl).ToString();
+            Regex idRegex = new Regex("\\d+");
+            var ids = idRegex.Matches(page.LandscapeContentUrl);
+            //main page number
+            page.Id = ids[0].ToString();
+            //sub page number is second element in the matches array if it is a subpage
+            if (ids.Count > 1)
+            {
+                page.SubId = ids[1].ToString();
+            }
 
             return page;
         }

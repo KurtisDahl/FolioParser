@@ -46,6 +46,9 @@ namespace FolioParserComponent
         [DataMember(Name = "id", IsRequired = true)]
         public string Id { get; set; }
 
+        [DataMember(Name = "subId", IsRequired = true)]
+        public string SubId { get; set; }
+
         ///
         /// Portrait
         /// 

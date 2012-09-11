@@ -16,6 +16,7 @@
                 // your application here.
                 var parser = new FolioParserComponent.Parser();
                 parser.parseIssue("IssueFolio.xml");
+                parser.parseArticle("10_1300_GQ0612_MRebel.Folio.xml");
                 parser.parseArticle("ArticleFolio.xml");
                 parser.parseArticle("00_0000_NavTo.Folio.xml");
                 parser.parseArticle("01_5150_LU0912_sspy04.Folio.xml");
@@ -25,7 +26,7 @@
                 parser.parseArticle("05_1500_SE0712_MOBstyTreySongz.Folio.xml");
                 parser.parseArticle("06_3000_TIES_BOWTIE44.Folio.xml");
                 parser.parseArticle("09_2100_VO0311_Photo1.Folio.xml");
-                parser.parseArticle("10_1300_GQ0612_MRebel.Folio.xml");
+                
                 parser.parseArticle("11_2500_BA0812_Foodist.Folio.xml");
             } else {
                 // TODO: This application has been reactivated from suspension.

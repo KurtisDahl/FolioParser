@@ -43,6 +43,10 @@
 						<assetRendition type="raster" source="StackResources/asset_P1_1.png" includesOverlays="false" width="768" height="54" role="content"/>
 						<assetRendition type="raster" source="StackResources/thumb_P1_1.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
 					</asset>
+          <asset landscape="false">
+            <assetRendition type="raster" source="StackResources/asset_P2.png" includesOverlays="false" width="768" height="54" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_P2.png" includesOverlays="true" width="192" height="256" role="thumbnail"/>
+          </asset>
 					<asset landscape="true">
 						<assetRendition type="raster" source="StackResources/asset_L1_0.png" includesOverlays="false" width="1024" height="768" role="content"/>
 						<assetRendition type="raster" source="StackResources/thumb_L1_0.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
@@ -52,6 +56,10 @@
 						<assetRendition type="raster" source="StackResources/asset_L1_1.png" includesOverlays="false" width="1024" height="60" role="content"/>
 						<assetRendition type="raster" source="StackResources/thumb_L1_1.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
 					</asset>
+          <asset landscape="true">
+            <assetRendition type="raster" source="StackResources/asset_L1_2.png" includesOverlays="false" width="1024" height="60" role="content"/>
+            <assetRendition type="raster" source="StackResources/thumb_L1_2.png" includesOverlays="true" width="256" height="192" role="thumbnail"/>
+          </asset>
 				</assets>
 				<overlays>
 					<overlay id="FadeScroll_60200_P" type="webview" lastUpdated="2012-08-22T23:15:50Z">

@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-11T16:35:38.865</Modified>
+      <Modified>2012-09-11T18:44:27.891</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParserComponent\bin\Debug\FolioParserComponent.winmd">
       <PackagePath>FolioParserComponent.winmd</PackagePath>
-      <Modified>2012-09-11T16:35:37.469</Modified>
+      <Modified>2012-09-11T18:44:26.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParserComponent\bin\Debug\FolioParserComponent.pdb">
       <PackagePath>FolioParserComponent.pdb</PackagePath>
-      <Modified>2012-09-11T16:35:37.420</Modified>
+      <Modified>2012-09-11T18:44:26.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\00_0000_NavTo.Folio.xml">
       <PackagePath>00_0000_NavTo.Folio.xml</PackagePath>
@@ -62,7 +62,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\10_1300_GQ0612_MRebel.Folio.xml">
       <PackagePath>10_1300_GQ0612_MRebel.Folio.xml</PackagePath>
-      <Modified>2012-09-05T16:29:44.156</Modified>
+      <Modified>2012-09-11T18:46:38.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\11_2500_BA0812_Foodist.Folio.xml">
       <PackagePath>11_2500_BA0812_Foodist.Folio.xml</PackagePath>
@@ -122,7 +122,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-09-10T22:31:23.273</Modified>
+      <Modified>2012-09-11T18:46:53.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
