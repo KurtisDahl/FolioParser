@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-11T18:44:27.891</Modified>
+      <Modified>2012-09-11T19:08:58.974</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParserComponent\bin\Debug\FolioParserComponent.winmd">
       <PackagePath>FolioParserComponent.winmd</PackagePath>
-      <Modified>2012-09-11T18:44:26.820</Modified>
+      <Modified>2012-09-11T19:08:57.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParserComponent\bin\Debug\FolioParserComponent.pdb">
       <PackagePath>FolioParserComponent.pdb</PackagePath>
-      <Modified>2012-09-11T18:44:26.799</Modified>
+      <Modified>2012-09-11T19:08:57.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\00_0000_NavTo.Folio.xml">
       <PackagePath>00_0000_NavTo.Folio.xml</PackagePath>
@@ -62,7 +62,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\10_1300_GQ0612_MRebel.Folio.xml">
       <PackagePath>10_1300_GQ0612_MRebel.Folio.xml</PackagePath>
-      <Modified>2012-09-11T18:46:38.359</Modified>
+      <Modified>2012-09-11T18:50:09.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\11_2500_BA0812_Foodist.Folio.xml">
       <PackagePath>11_2500_BA0812_Foodist.Folio.xml</PackagePath>
@@ -112,10 +112,6 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-07-26T18:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\json_article.txt">
-      <PackagePath>json_article.txt</PackagePath>
-      <Modified>2012-09-10T23:50:47.592</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\js\data.js">
       <PackagePath>js\data.js</PackagePath>
       <Modified>2012-06-06T04:54:42.000</Modified>
@@ -158,7 +154,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurtis\Documents\Visual Studio 2012\Projects\FolioParser\FolioParser\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-09-10T23:50:57.573</Modified>
+      <Modified>2012-09-11T19:08:58.341</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
