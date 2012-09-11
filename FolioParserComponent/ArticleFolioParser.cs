@@ -61,14 +61,6 @@ namespace FolioParserComponent
                 }
             }
             stream.Dispose();
-            //DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(Article));
-            //var loc = Windows.ApplicationModel.Package.Current.InstalledLocation;
-            //IStorageFile file = await loc.GetFileAsync("json_article.txt").AsTask();
-            //Stream outstream = await file.OpenStreamForWriteAsync();
-
-            //ser.WriteObject(outstream, article);
-            
-
             return article;
         }
 
