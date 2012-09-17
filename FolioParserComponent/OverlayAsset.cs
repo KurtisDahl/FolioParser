@@ -21,5 +21,8 @@ namespace FolioParserComponent
 
         [DataMember(Name = "url", IsRequired = true)]
         public string Url { get; set; }
+
+        [DataMember(Name = "tag", IsRequired = true)]
+        public string Tag { get; set; }
     }
 }

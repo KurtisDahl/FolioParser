@@ -638,7 +638,8 @@ namespace FolioParserComponent
             oa.Id = reader.GetAttribute("id");
             oa.Width = Convert.ToDouble(reader.GetAttribute("width"));
             oa.Height = Convert.ToDouble(reader.GetAttribute("height"));
-            
+            oa.Tag = reader.GetAttribute("tag") == null ? "" : reader.GetAttribute("tag");
+
             reader.Read();
             oa.Url = reader.Value;
             return oa;

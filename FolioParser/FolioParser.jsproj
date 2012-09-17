@@ -57,7 +57,9 @@
     <Content Include="01_5150_LU0912_sspy04.Folio.xml" />
     <Content Include="02_5800_AL0712_Profile_Folder.Folio.xml" />
     <Content Include="03_4400_GQ0812_Norway.Folio.xml" />
-    <Content Include="04_2050_VO0311_Diary.Folio.xml" />
+    <Content Include="04_2050_VO0311_Diary.Folio.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="05_1500_SE0712_MOBstyTreySongz.Folio.xml" />
     <Content Include="06_3000_TIES_BOWTIE44.Folio.xml">
       <SubType>Designer</SubType>

@@ -17,12 +17,12 @@
                 var parser = new FolioParserComponent.Parser();
                 //var issue = parser.parseIssue("IssueFolio.xml");
                 //var mRebelArticle = parser.parseArticle("10_1300_GQ0612_MRebel.Folio.xml");
-                //var articleFolioArticle = parser.parseArticle("ArticleFolio.xml");
+                var articleFolioArticle = parser.parseArticle("ArticleFolio.xml");
                 //var navToArticle = parser.parseArticle("00_0000_NavTo.Folio.xml");
                 //var sspy04Article = parser.parseArticle("01_5150_LU0912_sspy04.Folio.xml");
                 //var profileArticle = parser.parseArticle("02_5800_AL0712_Profile_Folder.Folio.xml");
                 //var norwayArticle = parser.parseArticle("03_4400_GQ0812_Norway.Folio.xml");
-                var diaryArticle = parser.parseArticle("04_2050_VO0311_Diary.Folio.xml");
+                //var diaryArticle = parser.parseArticle("04_2050_VO0311_Diary.Folio.xml");
                 //var mobstyTreySongzArticle = parser.parseArticle("05_1500_SE0712_MOBstyTreySongz.Folio.xml");
                 //var bowTieArticle = parser.parseArticle("06_3000_TIES_BOWTIE44.Folio.xml");
                 //var photo1Article = parser.parseArticle("09_2100_VO0311_Photo1.Folio.xml");
