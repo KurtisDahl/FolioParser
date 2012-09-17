@@ -12,19 +12,7 @@ namespace FolioParserComponent
     {
         public AudioOverlay()
         {
-        }
-
-        public AudioOverlay(AudioOverlay ao)
-        {
-            this.AudioUrl = ao.AudioUrl;
-            this.AutoStart = ao.AutoStart;
-            this.AutoStartDelay = ao.AutoStartDelay;
-            this.Height = ao.Height;
-            this.Id = ao.Id;
-            this.Orientation = ao.Orientation;
-            this.Width = ao.Width;
-            this.X = ao.X;
-            this.Y = ao.Y;
+            this.OverlayAssets = new List<OverlayAsset>();
         }
 
         [DataMember(Name = "id", IsRequired = true)]
@@ -53,6 +41,9 @@ namespace FolioParserComponent
 
         [DataMember(Name = "width", IsRequired = true)]
         public double Width { get; set; }
+
+        [DataMember(Name = "overlayAssets", IsRequired = true)]
+        public IList<OverlayAsset> OverlayAssets { get; private set; }
 
     }
 }

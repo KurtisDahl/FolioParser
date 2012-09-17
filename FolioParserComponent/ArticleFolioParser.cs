@@ -286,9 +286,30 @@ namespace FolioParserComponent
                 switch (type)
                 {
                     case "audio":
+                        AudioOverlay portraitAO = new AudioOverlay();
+                        AudioOverlay landscapeAO = new AudioOverlay();
+
+                        // getting the overlay assets for each oreintation if there are any
+                        do
+                        {
+                            if (reader.Name == "audioUrl")
+                            {
+                                break;
+                            }
+                            else if (reader.Name == "overlayAsset")
+                            {
+                                if (reader.GetAttribute("landscape") == "false")
+                                {
+                                    portraitAO.OverlayAssets.Add(parseOverlayAsset(reader));
+                                }
+                                else if (reader.GetAttribute("landscape") == "true")
+                                {
+                                    landscapeAO.OverlayAssets.Add(parseOverlayAsset(reader));
+                                }
+                            }
+                        } while (reader.Read());
+
                         AudioOverlay ao = parseAudioOverlay(reader);
-                        AudioOverlay portraitAO = new AudioOverlay(ao);
-                        AudioOverlay landscapeAO = new AudioOverlay(ao);
 
                         if (portraitTuple.Item1 != -1)  // there exists a portrait orientation for this overlay
                         {
@@ -298,6 +319,9 @@ namespace FolioParserComponent
                             portraitAO.Y = portraitTuple.Item2;
                             portraitAO.Width = portraitWidth;
                             portraitAO.Height = portraitHeight;
+                            portraitAO.AudioUrl = ao.AudioUrl;
+                            portraitAO.AutoStart = ao.AutoStart;
+                            portraitAO.AutoStartDelay = ao.AutoStartDelay;
                             article.Pages[portraitTuple.Item1].AudioOverlays.Add(portraitAO);
                         }
                         if (landscapeTuple.Item1 != -1) // there exists a landscape orientation for this overlay
@@ -308,6 +332,9 @@ namespace FolioParserComponent
                             landscapeAO.Y = landscapeTuple.Item2;
                             landscapeAO.Width = landscapeWidth;
                             landscapeAO.Height = landscapeHeight;
+                            landscapeAO.AudioUrl = ao.AudioUrl;
+                            landscapeAO.AutoStart = ao.AutoStart;
+                            landscapeAO.AutoStartDelay = ao.AutoStartDelay;
                             article.Pages[landscapeTuple.Item1].AudioOverlays.Add(landscapeAO);
                         }
                         break;
@@ -675,8 +702,7 @@ namespace FolioParserComponent
         {
             AudioOverlay ao = new AudioOverlay();
 
-            while (reader.Read())
-            {
+            do{
                 if (reader.Name == "data" && reader.NodeType == XmlNodeType.EndElement)
                 {
                     break;
@@ -701,7 +727,7 @@ namespace FolioParserComponent
                             break;
                     }
                 }
-            }
+            } while (reader.Read());
             return ao;
         }
 
