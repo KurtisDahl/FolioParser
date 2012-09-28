@@ -32,12 +32,17 @@ namespace FolioParserComponent
                         switch (reader.Name)
                         {
                             case "folio":
-                                issue.Id = reader.GetAttribute("id");
+                                //issue.RelativePath = Repository.GetIssueRelativePath(issue.Id);
                                 issue.Date = reader.GetAttribute("date");
                                 break;
                             case "magazineTitle":
                                 reader.Read();
+                                issue.Id = reader.Value.ToLower().Replace(" ", "") + "_";
                                 issue.DisplayName = reader.Value;
+                                break;
+                            case "folioNumber":
+                                reader.Read();
+                                issue.Id += reader.Value.ToLower().Replace(" ", "");
                                 break;
                             default:
                                 break;

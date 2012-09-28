@@ -15,7 +15,7 @@
                 // TODO: This application has been newly launched. Initialize
                 // your application here.
                 var parser = new FolioParserComponent.Parser();
-                //var issue = parser.parseIssue("IssueFolio.xml");
+                var issue = parser.parseIssue("IssueFolio.xml");
                 //var mRebelArticle = parser.parseArticle("10_1300_GQ0612_MRebel.Folio.xml");
                 var articleFolioArticle = parser.parseArticle("ArticleFolio.xml");
                 //var navToArticle = parser.parseArticle("00_0000_NavTo.Folio.xml");
